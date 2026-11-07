@@ -55,6 +55,119 @@
       "hyperos os2 os3 os4 разблокировка",
       "сброс frp",
       "qualcomm firehose"
+    ],
+    "codenames_xiaomi": [
+      "amethyst",
+      "annibale",
+      "athens",
+      "aurora",
+      "babylon",
+      "byron",
+      "chagall",
+      "chenfeng",
+      "cupid",
+      "dada",
+      "dali",
+      "dash",
+      "degas",
+      "diting",
+      "dizi",
+      "duchamp",
+      "flourite",
+      "fluorite",
+      "fuxi",
+      "garnet",
+      "goku",
+      "goya",
+      "haotian",
+      "hongkong",
+      "houji",
+      "ingres",
+      "ishtar",
+      "klimt",
+      "luming",
+      "malachite",
+      "manet",
+      "marble",
+      "miro",
+      "mondrian",
+      "muyu",
+      "myron",
+      "nezha",
+      "nuwa",
+      "onyx",
+      "pandora",
+      "peridot",
+      "piano",
+      "popsicle",
+      "pudding",
+      "rodin",
+      "rothko",
+      "ruyi",
+      "sheng",
+      "shennong",
+      "socrates",
+      "solana",
+      "songyuan",
+      "thor",
+      "turner",
+      "uke",
+      "unicorn",
+      "vermeer",
+      "warhol",
+      "warsaw",
+      "xuanyuan",
+      "yupei",
+      "zeus",
+      "zircon",
+      "zorn"
+    ],
+    "product_codes_redmagic": [
+      "NP01J",
+      "NP02J",
+      "NP03J",
+      "NP05J",
+      "NX563J",
+      "NX606J",
+      "NX609J",
+      "NX616J",
+      "NX619J",
+      "NX629J",
+      "NX651J",
+      "NX659J",
+      "NX669J",
+      "NX679J",
+      "NX679S",
+      "NX701J",
+      "NX709S",
+      "NX729J",
+      "NX733J",
+      "NX736J",
+      "NX741J",
+      "NX779J",
+      "NX789J",
+      "NX799J",
+      "NX809J",
+      "P725A12",
+      "P768A02",
+      "P845A02",
+      "P855A01",
+      "P855A23",
+      "P865A02",
+      "P870A01",
+      "P875A02",
+      "PQ83A01",
+      "TP1803"
+    ],
+    "os": [
+      "HyperOS 1.0",
+      "HyperOS 2.0",
+      "HyperOS 3.0",
+      "HyperOS 4.0",
+      "OS1",
+      "OS2",
+      "OS3",
+      "OS4"
     ]
   },
   "contact": {
@@ -70,7 +183,7 @@
   "brands": [
     {
       "brand": "Xiaomi / Redmi / POCO",
-      "model_count": 64,
+      "model_count": 75,
       "services": [
         "Unlock bootloader",
         "Flash",
@@ -80,16 +193,56 @@
         "Root (Magisk)"
       ],
       "os_support": [
-        "HyperOS OS1",
-        "OS2",
-        "OS3",
-        "OS4"
+        "HyperOS 1.0 (OS1)",
+        "HyperOS 2.0 (OS2)",
+        "HyperOS 3.0 (OS3)",
+        "HyperOS 4.0 (OS4)"
       ],
       "models": [
+        {
+          "name": "Civi 4 / Civi 4 Pro Series",
+          "codename": "chenfeng",
+          "chip": "",
+          "aliases": [
+            "Civi4series",
+            "chenfeng"
+          ],
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
         {
           "name": "K100 Pro athens",
           "codename": "athens",
           "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "K100-Pro-athens",
+            "K100ProAthens",
+            "athens"
+          ],
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Note 14 Pro+ High version",
+          "codename": "amethyst",
+          "chip": "Snapdragon 7s Gen 3",
+          "aliases": [
+            "Note14ProPlus-HighVersion",
+            "amethyst"
+          ],
           "services": [
             "Unlock bootloader"
           ],
@@ -103,10 +256,33 @@
           "name": "Note 15 Pro Plus",
           "codename": "flourite",
           "chip": "",
+          "aliases": [
+            "Redmi Note 15 Pro+ 5G / POCO M8 Pro 5G (flourite)",
+            "flourite"
+          ],
           "services": [
             "Root (Magisk)"
           ],
           "os": [
+            "OS3"
+          ]
+        },
+        {
+          "name": "POCO F7 / Redmi Turbo 4 Pro",
+          "codename": "onyx",
+          "chip": "Snapdragon 8s Gen 4",
+          "aliases": [
+            "POCO F7",
+            "PocoF7",
+            "Redmi Turbo 4 Pro",
+            "RedmiTurbo4Pro",
+            "onyx"
+          ],
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
             "OS3",
             "OS4"
           ]
@@ -114,7 +290,12 @@
         {
           "name": "POCO F9 Ultra",
           "codename": "songyuan",
-          "chip": "Snapdragon 8 Elite",
+          "chip": "Snapdragon 8 Elite Gen 5",
+          "aliases": [
+            "POCO-F9-Ultra",
+            "PocoF9Ultra",
+            "songyuan"
+          ],
           "services": [
             "Unlock bootloader"
           ],
@@ -127,7 +308,14 @@
         {
           "name": "Pad 6S Pro",
           "codename": "sheng",
-          "chip": "Snapdragon 8 Gen 2",
+          "chip": "",
+          "aliases": [
+            "Pad6SPro",
+            "Redmi Pad 6S Pro",
+            "RedmiPad6SPro",
+            "Xiaomi Pad 6S Pro 12.4 (sheng)",
+            "sheng"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -138,14 +326,20 @@
           "os": [
             "OS1",
             "OS2",
-            "OS3",
-            "OS4"
+            "OS3"
           ]
         },
         {
           "name": "Pad 8 Pro",
           "codename": "piano",
-          "chip": "Snapdragon 8 Elite",
+          "chip": "",
+          "aliases": [
+            "Xiaomi Pad 8 Pro",
+            "Xiaomi Pad 8 Pro (piano)",
+            "XiaomiPad8Pro",
+            "pad8pro",
+            "piano"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -156,14 +350,21 @@
           "os": [
             "OS1",
             "OS2",
-            "OS3",
-            "OS4"
+            "OS3"
           ]
         },
         {
-          "name": "Redmi K Pad / Pad Mini - OS3",
+          "name": "Redmi K Pad / Pad Mini",
           "codename": "turner",
           "chip": "",
+          "aliases": [
+            "K Pad",
+            "Pad Mini",
+            "Redmi K Pad",
+            "Redmi K Pad / Pad Mini OS3",
+            "RedmiKPad-OS3",
+            "turner"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
@@ -173,9 +374,31 @@
           ]
         },
         {
+          "name": "Redmi K100 Pro Max",
+          "codename": "songyuan",
+          "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "RedmiK100ProMax",
+            "songyuan"
+          ],
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
           "name": "Redmi K50 Gaming",
           "codename": "ingres",
           "chip": "",
+          "aliases": [
+            "Redmi K50G / POCO F4 GT (ingres)",
+            "ingres",
+            "k50gaming"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -184,15 +407,18 @@
           ],
           "os": [
             "OS1",
-            "OS2",
-            "OS3",
-            "OS4"
+            "OS2"
           ]
         },
         {
           "name": "Redmi K50 Ultra",
-          "codename": "",
+          "codename": "diting",
           "chip": "",
+          "aliases": [
+            "Redmi K50 Ultra / Xiaomi 12T Pro (diting)",
+            "diting",
+            "k50ultra"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -202,14 +428,18 @@
           "os": [
             "OS1",
             "OS2",
-            "OS3",
-            "OS4"
+            "OS3"
           ]
         },
         {
           "name": "Redmi K60 / Poco F5 Pro",
-          "codename": "",
+          "codename": "mondrian",
           "chip": "",
+          "aliases": [
+            "K60",
+            "Redmi K60 / POCO F5 Pro (mondrian)",
+            "mondrian"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -219,14 +449,19 @@
           "os": [
             "OS1",
             "OS2",
-            "OS3",
-            "OS4"
+            "OS3"
           ]
         },
         {
           "name": "Redmi K60 Pro",
           "codename": "socrates",
           "chip": "Snapdragon 8 Gen 2",
+          "aliases": [
+            "K60Pro",
+            "Redmi K60 Pro (socrates)",
+            "RedmiK60Pro",
+            "socrates"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -245,6 +480,15 @@
           "name": "Redmi K70 / POCO F6 Pro",
           "codename": "vermeer",
           "chip": "Snapdragon 8 Gen 2",
+          "aliases": [
+            "K70",
+            "POCO F6 Pro",
+            "Poco F6 Pro",
+            "Redmi K70",
+            "Redmi K70 / POCO F6 Pro (vermeer)",
+            "RedmiK70",
+            "vermeer"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -263,6 +507,12 @@
           "name": "Redmi K70 Pro",
           "codename": "manet",
           "chip": "Snapdragon 8 Gen 3",
+          "aliases": [
+            "Redmi K70 Pro (manet)",
+            "RedmiK70Pro",
+            "k70pro",
+            "manet"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -277,9 +527,21 @@
           ]
         },
         {
-          "name": "Redmi K70E / POCO X6 Pro - high version",
+          "name": "Redmi K70E / POCO X6 Pro",
           "codename": "duchamp",
           "chip": "",
+          "aliases": [
+            "K70E",
+            "POCO X6 Pro",
+            "Poco X6 Pro",
+            "PocoX6Pro",
+            "Redmi K70E",
+            "Redmi K70E Poco X6 Pro duchamp LK Slot",
+            "RedmiK70E",
+            "RedmiK70E-PocoX6Pro-duchamp-LKSlot",
+            "X6 Pro",
+            "duchamp"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
@@ -293,23 +555,71 @@
           "name": "Redmi K80",
           "codename": "zorn",
           "chip": "Snapdragon 8 series",
+          "aliases": [
+            "Redmi K80 / POCO F7 Pro (zorn)",
+            "RedmiK80",
+            "zorn"
+          ],
           "services": [
-            "Flash",
-            "Root",
             "Root (Magisk)",
             "Unlock bootloader"
           ],
           "os": [
-            "OS1",
             "OS2",
             "OS3",
             "OS4"
           ]
         },
         {
+          "name": "Redmi K80 / POCO F7 Pro",
+          "codename": "zorn",
+          "chip": "",
+          "aliases": [
+            "K80",
+            "zorn"
+          ],
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
           "name": "Redmi K80 Pro",
           "codename": "miro",
           "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "RedmiK80Pro",
+            "miro"
+          ],
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K80 Pro / Poco F7 Ultra",
+          "codename": "miro",
+          "chip": "",
+          "aliases": [
+            "K80 Pro",
+            "POCO F7 Ultra",
+            "Poco F7 Ultra",
+            "Redmi K80 Pro",
+            "Redmi K80 Pro / POCO F7 Ultra (miro)",
+            "RedmiK80Pro",
+            "k80pro",
+            "miro",
+            "pocof7ultra"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -320,14 +630,19 @@
           "os": [
             "OS1",
             "OS2",
-            "OS3",
-            "OS4"
+            "OS3"
           ]
         },
         {
-          "name": "Redmi K80 Ultra - OS3",
+          "name": "Redmi K80 Ultra",
           "codename": "dali",
           "chip": "",
+          "aliases": [
+            "K80 Ultra",
+            "Redmi K80 Ultra OS3",
+            "RedmiK80Ultra-OS3",
+            "dali"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
@@ -340,6 +655,15 @@
           "name": "Redmi K90",
           "codename": "annibale",
           "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "POCO F8 Pro",
+            "Poco F8 Pro",
+            "Redmi K90 / POCO F8 Pro",
+            "Redmi K90 / POCO F8 Pro (annibale)",
+            "RedmiK90",
+            "annibale",
+            "redmik90"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -358,6 +682,16 @@
           "name": "Redmi K90 Pro Max / POCO F8 Ultra",
           "codename": "myron",
           "chip": "Snapdragon 8 Elite Gen 5",
+          "aliases": [
+            "POCO F8 Ultra",
+            "Redmi K90 Pro Max",
+            "Redmi K90 Pro Max / POCO F8 Ultra (myron)",
+            "Redmi K90 Pro Max / POCO F8 Ultra [myron] old version",
+            "Redmi K90 Pro Max Old Version",
+            "Redmi-K90-Pro-Max",
+            "Redmi-K90-Pro-Max-OldVersion",
+            "myron"
+          ],
           "services": [
             "Root",
             "Root (Magisk)",
@@ -374,6 +708,10 @@
           "name": "Redmi K90 Ultra",
           "codename": "warsaw",
           "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "RedmiK90Ultra",
+            "warsaw"
+          ],
           "services": [
             "Unlock bootloader"
           ],
@@ -387,6 +725,11 @@
           "name": "Redmi Mix Flip 2",
           "codename": "solana",
           "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "XiaomiMixFlip2",
+            "mixflip2",
+            "solana"
+          ],
           "services": [
             "Unlock bootloader"
           ],
@@ -399,8 +742,13 @@
         },
         {
           "name": "Redmi Note 12 Turbo / Poco F5",
-          "codename": "",
+          "codename": "marble",
           "chip": "",
+          "aliases": [
+            "Redmi Note 12 Turbo / POCO F5 (marble)",
+            "marble",
+            "note12turbo"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -410,14 +758,18 @@
           "os": [
             "OS1",
             "OS2",
-            "OS3",
-            "OS4"
+            "OS3"
           ]
         },
         {
           "name": "Redmi Note 13 Pro",
-          "codename": "",
+          "codename": "zircon",
           "chip": "",
+          "aliases": [
+            "Redmi Note 13 Pro+ 5G (zircon)",
+            "note13pro",
+            "zircon"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -426,15 +778,19 @@
           ],
           "os": [
             "OS1",
-            "OS2",
-            "OS3",
-            "OS4"
+            "OS2"
           ]
         },
         {
           "name": "Redmi Note 13 Pro 5G",
           "codename": "garnet",
           "chip": "Snapdragon 7s Gen 2",
+          "aliases": [
+            "2312DRA50I",
+            "Note 13 Pro 5G",
+            "RedmiNote13Pro5G",
+            "garnet"
+          ],
           "services": [
             "Temp root"
           ],
@@ -443,9 +799,23 @@
           ]
         },
         {
-          "name": "Redmi Note 14 Pro / POCO X7 Pro - high version LK",
-          "codename": "malachite",
+          "name": "Redmi Note 13 Pro+",
+          "codename": "zircon",
           "chip": "",
+          "aliases": [
+            "Note 13 Pro Plus",
+            "Note 13 Pro+",
+            "Note 13 Pro+ Old",
+            "Redmi Note 13 Pro Plus",
+            "Redmi Note 13 Pro Plus zircon LK Slot",
+            "Redmi Note 13 Pro Plus zircon Old LK",
+            "Redmi Note 13 Pro+ (Old)",
+            "RedmiNote13ProPlus-zircon-LKSlot",
+            "RedmiNote13ProPlus-zircon-OldLK",
+            "zircon",
+            "zircon old",
+            "zircon-old"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
@@ -456,9 +826,37 @@
           ]
         },
         {
+          "name": "Redmi Note 14 Pro / POCO X7 Pro",
+          "codename": "malachite",
+          "chip": "",
+          "aliases": [
+            "Note 14 Pro",
+            "POCO X7",
+            "POCO X7 Pro",
+            "Poco X7",
+            "Poco X7 Pro",
+            "Redmi Note 14 Pro",
+            "Redmi Note 14 Pro 5G",
+            "Redmi Note 14 Pro malachite LK Slot",
+            "RedmiNote14Pro-malachite-LKSlot",
+            "malachite",
+            "rodin"
+          ],
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": []
+        },
+        {
           "name": "Redmi Note 14 Pro+",
           "codename": "amethyst",
-          "chip": "Snapdragon 7s Gen 3",
+          "chip": "",
+          "aliases": [
+            "Note14ProPlus",
+            "Redmi Note 14 Pro+ 5G (amethyst)",
+            "amethyst"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -468,14 +866,22 @@
           "os": [
             "OS1",
             "OS2",
-            "OS3",
-            "OS4"
+            "OS3"
           ]
         },
         {
           "name": "Redmi Note 15 Pro+",
           "codename": "fluorite",
           "chip": "Snapdragon 7s Gen 4",
+          "aliases": [
+            "Note 15 Pro+ Old",
+            "Redmi Note 15 Pro+ Old",
+            "RedmiNote15ProPlus",
+            "RedmiNote15ProPlus-old",
+            "fluorite",
+            "fluorite-old",
+            "note15proplus-old"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -492,6 +898,11 @@
           "name": "Redmi Pad Pro",
           "codename": "dizi",
           "chip": "",
+          "aliases": [
+            "Redmi Pad Pro / POCO Pad (dizi)",
+            "dizi",
+            "redmipadpro"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -501,48 +912,110 @@
           "os": [
             "OS1",
             "OS2",
-            "OS3",
-            "OS4"
+            "OS3"
           ]
         },
         {
           "name": "Redmi Turbo 3",
           "codename": "peridot",
-          "chip": "Snapdragon 8s Gen 3",
+          "chip": "",
+          "aliases": [
+            "Redmi Turbo 3 / POCO F6 (peridot)",
+            "peridot"
+          ],
           "services": [
-            "Flash",
-            "Root",
-            "Root (Magisk)",
-            "Unlock bootloader"
+            "Root (Magisk)"
           ],
           "os": [
-            "OS1",
-            "OS2",
-            "OS3",
-            "OS4"
+            "OS3"
           ]
         },
         {
-          "name": "Redmi Turbo 4 / POCO X7 Pro (OS2) - high version LK",
+          "name": "Redmi Turbo 4 / POCO X7 Pro",
           "codename": "rodin",
           "chip": "",
+          "aliases": [
+            "POCO X7 Pro",
+            "POCO X7 Pro (OS2)",
+            "POCO X7 Pro (OS3)",
+            "Poco X7 Pro",
+            "Poco X7 Pro (OS2)",
+            "Poco X7 Pro (OS3)",
+            "Redmi Turbo 4",
+            "Redmi Turbo 4 (OS2)",
+            "Redmi Turbo 4 (OS3)",
+            "Redmi Turbo 4 rodin OS2 LK Slot",
+            "Redmi Turbo 4 rodin OS3 LK Slot",
+            "RedmiTurbo4-rodin-OS2-LKSlot",
+            "RedmiTurbo4-rodin-OS3-LKSlot",
+            "Turbo 4",
+            "Turbo 4 (OS2)",
+            "Turbo 4 (OS3)",
+            "rodin",
+            "rodin-os2",
+            "rodin-os3"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
           ],
           "os": [
-            "OS1",
-            "OS2"
+            "OS2",
+            "OS3"
           ]
         },
         {
           "name": "Redmi Turbo 4 Pro",
           "codename": "onyx",
-          "chip": "Snapdragon 8s Gen 4",
+          "chip": "",
+          "aliases": [
+            "Redmi Turbo 4 Pro / POCO F7 (onyx)",
+            "onyx"
+          ],
+          "services": [
+            "Root (Magisk)"
+          ],
+          "os": [
+            "OS3"
+          ]
+        },
+        {
+          "name": "Redmi Turbo 5 Max / POCO X8 Pro Max",
+          "codename": "dash",
+          "chip": "",
+          "aliases": [
+            "POCO X8 Pro",
+            "POCO X8 Pro Max",
+            "Poco X8 Pro",
+            "Poco X8 Pro Max",
+            "Redmi Turbo 5 Max",
+            "Redmi Turbo 5 Max dash LK Slot",
+            "RedmiTurbo5Max-dash-LKSlot",
+            "Turbo 5 Max",
+            "dash"
+          ],
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": []
+        },
+        {
+          "name": "Turbo 3 / Poco F6",
+          "codename": "peridot",
+          "chip": "Snapdragon 8s Gen 3",
+          "aliases": [
+            "POCO F6",
+            "Poco F6",
+            "Redmi Turbo 3",
+            "RedmiTurbo3",
+            "Turbo 3",
+            "peridot",
+            "turbo3"
+          ],
           "services": [
             "Flash",
             "Root",
-            "Root (Magisk)",
             "Unlock bootloader"
           ],
           "os": [
@@ -553,10 +1026,21 @@
           ]
         },
         {
-          "name": "Redmi Turbo 5 Max / POCO X8 Pro Max - high version LK",
-          "codename": "dash",
+          "name": "Turbo 4 Pro / Poco F7",
+          "codename": "onyx",
           "chip": "",
+          "aliases": [
+            "POCO F7",
+            "Poco F7",
+            "Redmi Turbo 4 Pro",
+            "RedmiTurbo4Pro",
+            "Turbo 4 Pro",
+            "onyx",
+            "onyx mini",
+            "pocof7"
+          ],
           "services": [
+            "Flash",
             "Root",
             "Unlock bootloader"
           ],
@@ -569,6 +1053,13 @@
           "name": "Xiaomi 12",
           "codename": "cupid",
           "chip": "Snapdragon 8 Gen 1",
+          "aliases": [
+            "12",
+            "Xiaomi 12 (cupid)",
+            "Xiaomi12",
+            "cupid",
+            "xiaomi12"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -586,6 +1077,13 @@
           "name": "Xiaomi 12 Pro",
           "codename": "zeus",
           "chip": "Snapdragon 8 Gen 1",
+          "aliases": [
+            "12 Pro",
+            "Xiaomi 12 Pro (zeus)",
+            "Xiaomi12Pro",
+            "xiaomi12pro",
+            "zeus"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -603,6 +1101,13 @@
           "name": "Xiaomi 12S Pro",
           "codename": "unicorn",
           "chip": "Snapdragon 8+ Gen 1",
+          "aliases": [
+            "12S Pro",
+            "Xiaomi 12S Pro (unicorn)",
+            "Xiaomi12SPro",
+            "unicorn",
+            "xiaomi12spro"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -620,6 +1125,13 @@
           "name": "Xiaomi 12S Ultra",
           "codename": "thor",
           "chip": "Snapdragon 8+ Gen 1",
+          "aliases": [
+            "12S Ultra",
+            "Xiaomi 12S Ultra (thor)",
+            "Xiaomi12SUltra",
+            "thor",
+            "xiaomi12sultra"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -637,6 +1149,12 @@
           "name": "Xiaomi 13",
           "codename": "fuxi",
           "chip": "Snapdragon 8 Gen 2",
+          "aliases": [
+            "13",
+            "Xiaomi 13 (fuxi)",
+            "Xiaomi13",
+            "fuxi"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -655,6 +1173,12 @@
           "name": "Xiaomi 13 Pro",
           "codename": "nuwa",
           "chip": "Snapdragon 8 Gen 2",
+          "aliases": [
+            "13 Pro",
+            "Xiaomi 13 Pro (nuwa)",
+            "Xiaomi13Pro",
+            "nuwa"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -673,6 +1197,12 @@
           "name": "Xiaomi 13 Ultra",
           "codename": "ishtar",
           "chip": "Snapdragon 8 Gen 2",
+          "aliases": [
+            "13 Ultra",
+            "Xiaomi 13 Ultra (ishtar)",
+            "Xiaomi13Ultra",
+            "ishtar"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -691,6 +1221,11 @@
           "name": "Xiaomi 14",
           "codename": "houji",
           "chip": "Snapdragon 8 Gen 3",
+          "aliases": [
+            "Xiaomi 14 (houji)",
+            "Xiaomi14",
+            "houji"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -708,6 +1243,12 @@
           "name": "Xiaomi 14 Pro",
           "codename": "shennong",
           "chip": "Snapdragon 8 Gen 3",
+          "aliases": [
+            "Xiaomi 14 Pro/Ti / 14 Pro Ti Satellite (shennong)",
+            "Xiaomi14Pro",
+            "shennong",
+            "xiaomi14pro"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -725,6 +1266,11 @@
           "name": "Xiaomi 14 Ultra",
           "codename": "aurora",
           "chip": "Snapdragon 8 Gen 3",
+          "aliases": [
+            "Xiaomi 14 Ultra (aurora)",
+            "Xiaomi14Ultra",
+            "aurora"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -739,35 +1285,52 @@
           ]
         },
         {
-          "name": "Xiaomi 14T - high version LK",
+          "name": "Xiaomi 14T",
           "codename": "degas",
           "chip": "",
+          "aliases": [
+            "14T",
+            "Xiaomi 14T degas LK Slot",
+            "Xiaomi14T",
+            "Xiaomi14T-degas-LKSlot",
+            "degas"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
           ],
-          "os": [
-            "OS1",
-            "OS2"
-          ]
+          "os": []
         },
         {
-          "name": "Xiaomi 14T Pro / Redmi K70 Ultra - high version LK",
+          "name": "Xiaomi 14T Pro / Redmi K70 Ultra",
           "codename": "rothko",
           "chip": "",
+          "aliases": [
+            "14T Pro",
+            "K70 Ultra",
+            "K70Ultra",
+            "Redmi K70 Ultra",
+            "Xiaomi 14T Pro",
+            "Xiaomi 14T Pro K70 Ultra rothko LK Slot",
+            "Xiaomi14TPro",
+            "Xiaomi14TPro-K70Ultra-rothko-LKSlot",
+            "rothko"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
           ],
-          "os": [
-            "OS1",
-            "OS2"
-          ]
+          "os": []
         },
         {
           "name": "Xiaomi 15",
           "codename": "dada",
           "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "Xiaomi 15 (dada)",
+            "Xiaomi15",
+            "dada"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -786,6 +1349,12 @@
           "name": "Xiaomi 15 Pro",
           "codename": "haotian",
           "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "Xiaomi 15 Pro (haotian)",
+            "Xiaomi15Pro",
+            "haotian",
+            "xiaomi15pro"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -804,6 +1373,12 @@
           "name": "Xiaomi 15 Ultra",
           "codename": "xuanyuan",
           "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "Xiaomi 15 Ultra (xuanyuan)",
+            "Xiaomi15Ultra",
+            "xiaomi15ultra_f",
+            "xuanyuan"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -822,32 +1397,48 @@
           "name": "Xiaomi 15T",
           "codename": "goya",
           "chip": "",
+          "aliases": [
+            "MT6899",
+            "Xiaomi 15T goya LK Slot",
+            "Xiaomi15T",
+            "Xiaomi15T-goya-LKSlot",
+            "goya"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
           ],
-          "os": [
-            "OS1",
-            "OS2"
-          ]
+          "os": []
         },
         {
           "name": "Xiaomi 15T Pro",
           "codename": "klimt",
           "chip": "",
+          "aliases": [
+            "MT6991",
+            "Xiaomi 15T Pro klimt LK Slot",
+            "Xiaomi15TPro",
+            "Xiaomi15TPro-klimt-LKSlot",
+            "klimt"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
           ],
-          "os": [
-            "OS1",
-            "OS2"
-          ]
+          "os": []
         },
         {
           "name": "Xiaomi 17",
           "codename": "pudding",
           "chip": "Snapdragon 8 Elite Gen 5",
+          "aliases": [
+            "Xiaomi 17 (pudding)",
+            "Xiaomi 17 Old Version",
+            "Xiaomi 17 [pudding] old version",
+            "Xiaomi-17",
+            "Xiaomi-17-OldVersion",
+            "pudding"
+          ],
           "services": [
             "Root",
             "Root (Magisk)",
@@ -864,6 +1455,11 @@
           "name": "Xiaomi 17 Max",
           "codename": "byron",
           "chip": "Snapdragon 8 Elite Gen 5",
+          "aliases": [
+            "Xiaomi-17-Max",
+            "Xiaomi17Max",
+            "byron"
+          ],
           "services": [
             "Unlock bootloader"
           ],
@@ -877,6 +1473,14 @@
           "name": "Xiaomi 17 Pro",
           "codename": "pandora",
           "chip": "Snapdragon 8 Elite Gen 5",
+          "aliases": [
+            "Xiaomi 17 Pro (pandora)",
+            "Xiaomi 17 Pro Old Version",
+            "Xiaomi 17 Pro [pandora] old version",
+            "Xiaomi-17-Pro-OldVersion",
+            "Xiaomi17Pro",
+            "pandora"
+          ],
           "services": [
             "Root",
             "Root (Magisk)",
@@ -893,6 +1497,14 @@
           "name": "Xiaomi 17 Pro Max",
           "codename": "popsicle",
           "chip": "Snapdragon 8 Elite Gen 5",
+          "aliases": [
+            "Xiaomi 17 Pro Max (popsicle)",
+            "Xiaomi 17 Pro Max Old Version",
+            "Xiaomi 17 Pro Max [popsicle] old version",
+            "Xiaomi-17-Pro-Max-OldVersion",
+            "Xiaomi17ProMax",
+            "popsicle"
+          ],
           "services": [
             "Root",
             "Root (Magisk)",
@@ -909,6 +1521,14 @@
           "name": "Xiaomi 17 Ultra",
           "codename": "nezha",
           "chip": "Snapdragon 8 Elite Gen 5",
+          "aliases": [
+            "Xiaomi 17 Ultra (nezha)",
+            "Xiaomi 17 Ultra Old Version",
+            "Xiaomi 17 Ultra [nezha] old version",
+            "Xiaomi-17-Ultra-OldVersion",
+            "Xiaomi17Ultra",
+            "nezha"
+          ],
           "services": [
             "Root",
             "Root (Magisk)",
@@ -925,32 +1545,45 @@
           "name": "Xiaomi 17T",
           "codename": "chagall",
           "chip": "",
+          "aliases": [
+            "MT6899",
+            "Xiaomi 17T chagall LK Slot",
+            "Xiaomi17T",
+            "Xiaomi17T-chagall-LKSlot",
+            "chagall"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
           ],
-          "os": [
-            "OS1",
-            "OS2"
-          ]
+          "os": []
         },
         {
           "name": "Xiaomi 17T Pro",
           "codename": "warhol",
           "chip": "",
+          "aliases": [
+            "MT6993",
+            "Xiaomi 17T Pro warhol LK Slot",
+            "Xiaomi17TPro",
+            "Xiaomi17TPro-warhol-LKSlot",
+            "warhol"
+          ],
           "services": [
             "Root",
             "Unlock bootloader"
           ],
-          "os": [
-            "OS1",
-            "OS2"
-          ]
+          "os": []
         },
         {
           "name": "Xiaomi 18 Pro",
           "codename": "hongkong",
           "chip": "Snapdragon 8 Elite Gen 5 (SM8950)",
+          "aliases": [
+            "M610BB",
+            "Xiaomi18Pro",
+            "hongkong"
+          ],
           "services": [
             "Root"
           ],
@@ -963,14 +1596,16 @@
           "name": "Xiaomi Civi 4 Pro",
           "codename": "chenfeng",
           "chip": "Snapdragon 8s Gen 3",
+          "aliases": [
+            "Xiaomi Civi 4 Pro (chenfeng)",
+            "XiaomiCivi4Pro",
+            "chenfeng"
+          ],
           "services": [
-            "Flash",
-            "Root",
             "Root (Magisk)",
             "Unlock bootloader"
           ],
           "os": [
-            "OS1",
             "OS2",
             "OS3",
             "OS4"
@@ -980,6 +1615,13 @@
           "name": "Xiaomi Civi 5 Pro",
           "codename": "luming",
           "chip": "Snapdragon 8s Gen 4",
+          "aliases": [
+            "Civi 5 Pro",
+            "Civi5Pro",
+            "Xiaomi Civi 5 Pro (luming)",
+            "XiaomiCivi5Pro",
+            "luming"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -997,6 +1639,13 @@
           "name": "Xiaomi MIX Fold 3",
           "codename": "babylon",
           "chip": "Snapdragon 8 Gen 2",
+          "aliases": [
+            "MIX Fold 3 (babylon)",
+            "Mix Fold 3",
+            "MixFold3",
+            "XiaomiMixFold3",
+            "babylon"
+          ],
           "services": [
             "EDL flash / Unbrick",
             "Flash",
@@ -1015,6 +1664,12 @@
           "name": "Xiaomi MIX Fold 4",
           "codename": "goku",
           "chip": "Snapdragon 8 Gen 3",
+          "aliases": [
+            "MIX Fold 4 (goku)",
+            "Mix Fold 4",
+            "XiaomiMixFold4",
+            "goku"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -1032,6 +1687,12 @@
           "name": "Xiaomi Mix Flip",
           "codename": "ruyi",
           "chip": "Snapdragon 8 Gen 3",
+          "aliases": [
+            "MIX Flip (ruyi)",
+            "MixFlip",
+            "XiaomiMixFlip",
+            "ruyi"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -1046,9 +1707,33 @@
           ]
         },
         {
+          "name": "Xiaomi Pad 6S Pro",
+          "codename": "sheng",
+          "chip": "Snapdragon 8 Gen 2",
+          "aliases": [
+            "XiaomiPad6SPro",
+            "sheng"
+          ],
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
           "name": "Xiaomi Pad 7",
           "codename": "uke",
           "chip": "Snapdragon 7+ Gen 3",
+          "aliases": [
+            "Xiaomi Pad 7 / POCO Pad X1 (uke)",
+            "Xiaomi Pad 7 old version",
+            "XiaomiPad7",
+            "XiaomiPad7 Old Version",
+            "uke"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -1066,6 +1751,13 @@
           "name": "Xiaomi Pad 7 Pro",
           "codename": "muyu",
           "chip": "Snapdragon 8s Gen 3",
+          "aliases": [
+            "Xiaomi Pad 7 Pro (muyu)",
+            "Xiaomi Pad 7 Pro old version",
+            "XiaomiPad7Pro",
+            "XiaomiPad7Pro Old Version",
+            "muyu"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -1083,6 +1775,12 @@
           "name": "Xiaomi Pad 8",
           "codename": "yupei",
           "chip": "Snapdragon 8s Gen 4",
+          "aliases": [
+            "Pad 8",
+            "Xiaomi Pad 8 (yupei)",
+            "XiaomiPad8",
+            "yupei"
+          ],
           "services": [
             "Flash",
             "Root",
@@ -1091,6 +1789,23 @@
           ],
           "os": [
             "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi Pad 8 Pro",
+          "codename": "piano",
+          "chip": "Snapdragon 8 Elite",
+          "aliases": [
+            "XiaomiPad8Pro",
+            "piano"
+          ],
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
             "OS2",
             "OS3",
             "OS4"
@@ -1121,6 +1836,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "P855A23"
           ]
         },
         {
@@ -1132,6 +1850,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "TP1803"
           ]
         },
         {
@@ -1141,6 +1862,10 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NP02J",
+            "P875A02"
           ]
         },
         {
@@ -1152,6 +1877,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX651J"
           ]
         },
         {
@@ -1163,6 +1891,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX609J"
           ]
         },
         {
@@ -1175,6 +1906,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NP03J"
           ]
         },
         {
@@ -1186,6 +1920,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX616J"
           ]
         },
         {
@@ -1197,6 +1934,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX563J"
           ]
         },
         {
@@ -1208,6 +1948,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX606J"
           ]
         },
         {
@@ -1219,6 +1962,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P875A02"
           ]
         },
         {
@@ -1228,6 +1974,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX701J"
           ]
         },
         {
@@ -1240,6 +1989,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "PQ83A01"
           ]
         },
         {
@@ -1252,6 +2004,10 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NX733J",
+            "NX736J"
           ]
         },
         {
@@ -1264,6 +2020,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NX741J"
           ]
         },
         {
@@ -1276,6 +2035,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NX789J"
           ]
         },
         {
@@ -1286,6 +2048,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NX779J"
           ]
         },
         {
@@ -1298,6 +2063,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NX799J"
           ]
         },
         {
@@ -1310,6 +2078,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NX809J"
           ]
         },
         {
@@ -1321,6 +2092,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX629J"
           ]
         },
         {
@@ -1332,6 +2106,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX659J"
           ]
         },
         {
@@ -1343,6 +2120,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX669J"
           ]
         },
         {
@@ -1354,6 +2134,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P875A02"
           ]
         },
         {
@@ -1365,6 +2148,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX679J"
           ]
         },
         {
@@ -1376,6 +2162,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX679S"
           ]
         },
         {
@@ -1387,6 +2176,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX709S"
           ]
         },
         {
@@ -1399,6 +2191,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NX729J"
           ]
         },
         {
@@ -1411,6 +2206,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "PQ83A01"
           ]
         },
         {
@@ -1420,6 +2218,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NP01J"
           ]
         },
         {
@@ -1432,6 +2233,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NP03J"
           ]
         },
         {
@@ -1443,6 +2247,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX619J"
           ]
         },
         {
@@ -1455,6 +2262,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "NP05J"
           ]
         },
         {
@@ -1464,6 +2274,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NP02J"
           ]
         },
         {
@@ -1475,6 +2288,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P855A01"
           ]
         },
         {
@@ -1487,6 +2303,9 @@
             "EDL flash",
             "Flash Global ROM",
             "FRP unlock"
+          ],
+          "aliases": [
+            "P865A02"
           ]
         },
         {
@@ -1498,6 +2317,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P725A12"
           ]
         },
         {
@@ -1509,6 +2331,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P725A12"
           ]
         },
         {
@@ -1518,6 +2343,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P870A01"
           ]
         },
         {
@@ -1529,6 +2357,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P875A02"
           ]
         },
         {
@@ -1540,6 +2371,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P875A02"
           ]
         },
         {
@@ -1549,6 +2383,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P870A01"
           ]
         },
         {
@@ -1558,6 +2395,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P870A01"
           ]
         },
         {
@@ -1567,6 +2407,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX701J"
           ]
         },
         {
@@ -1576,6 +2419,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NX701J"
           ]
         },
         {
@@ -1587,6 +2433,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "ailsa_ii"
           ]
         },
         {
@@ -1598,6 +2447,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P845A02"
           ]
         },
         {
@@ -1609,6 +2461,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P768A02"
           ]
         },
         {
@@ -1620,6 +2475,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P875A02"
           ]
         },
         {
@@ -1629,6 +2487,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P870A01"
           ]
         },
         {
@@ -1638,6 +2499,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "NP01J"
           ]
         },
         {
@@ -1649,6 +2513,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P725A12"
           ]
         },
         {
@@ -1660,6 +2527,9 @@
             "Unbrick",
             "EDL flash",
             "Flash Global ROM"
+          ],
+          "aliases": [
+            "P768A02"
           ]
         }
       ]
@@ -1682,7 +2552,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "OPPO Find X8 Ultra",
@@ -1691,7 +2562,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "OnePlus 13",
@@ -1700,7 +2572,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "OnePlus 13T",
@@ -1709,7 +2582,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "OnePlus Ace 5 Pro",
@@ -1718,7 +2592,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "OnePlus Ace 6",
@@ -1727,7 +2602,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "OnePlus Open 2",
@@ -1736,7 +2612,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "OnePlus Pad 3",
@@ -1745,7 +2622,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "Realme GT Neo5 SE",
@@ -1754,7 +2632,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "Realme GT7 Pro",
@@ -1763,7 +2642,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         },
         {
           "name": "Realme GT8",
@@ -1772,7 +2652,8 @@
             "Flash ROM",
             "Unlock bootloader",
             "Root"
-          ]
+          ],
+          "aliases": []
         }
       ]
     }
