@@ -1,0 +1,59 @@
+# ============================================================
+#  CHẶN mọi mã nguồn / firmware / loader / secret khỏi repo
+#  Repo này CHỈ chứa: README.md, services.json, models/*.md
+# ============================================================
+
+# Source code
+*.exe
+*.dll
+*.py
+*.js
+*.ts
+*.php
+*.ps1
+*.bat
+*.vbs
+*.sh
+*.cs
+*.sln
+*.csproj
+
+# Firmware / loader / ảnh phân vùng
+*.zip
+*.img
+*.bin
+*.tgz
+*.tar
+*.gz
+*.elf
+*.mbn
+*.ofp
+*.ops
+*.xml
+models/**/*.zip
+
+# Dữ liệu nhạy cảm
+*.json
+!services.json
+*.csv
+*.sql
+*.sqlite
+*.env
+.env*
+config/
+db/
+protected/
+firmware_files/
+secrets*
+*offset*
+*manifest*
+*token*
+
+# Build / cache
+node_modules/
+__pycache__/
+dist/
+build/
+.vscode/
+.idea/
+*.tmp

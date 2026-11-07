@@ -1,0 +1,1853 @@
+{
+  "name": "NCUnlock — Dịch vụ mở khóa & flash điện thoại",
+  "site": "https://ncunlock.com",
+  "updated": "2026-11-07",
+  "description": {
+    "vi": "Dịch vụ chuyên nghiệp mở khóa bootloader, flash ROM, cứu máy (unbrick) qua EDL 9008, temp root và root cho Xiaomi/Redmi/POCO, RedMagic/Nubia/ZTE, OnePlus/OPPO/Realme. Hỗ trợ đầy đủ HyperOS OS2/OS3/OS4. Hơn 130 model.",
+    "en": "Professional service for bootloader unlock, ROM flashing, EDL 9008 unbrick, temp root and root on Xiaomi/Redmi/POCO, RedMagic/Nubia/ZTE, OnePlus/OPPO/Realme. Full HyperOS OS2/OS3/OS4 support. 130+ models.",
+    "ru": "Профессиональная услуга разблокировки загрузчика, прошивки ROM, восстановления (unbrick) через EDL 9008, temp root и root для Xiaomi/Redmi/POCO, RedMagic/Nubia/ZTE, OnePlus/OPPO/Realme. Полная поддержка HyperOS OS2/OS3/OS4. Более 130 моделей."
+  },
+  "keywords": {
+    "vi": [
+      "mở khóa bootloader xiaomi",
+      "unlock bootloader",
+      "edl flash",
+      "cứu máy unbrick",
+      "temp root",
+      "root hyperos",
+      "flash rom global",
+      "mở khóa redmagic",
+      "unlock oneplus",
+      "flash oppo realme",
+      "chuyển rom china sang global",
+      "hyperos os2 os3 os4",
+      "bẻ khóa bootloader",
+      "root điện thoại"
+    ],
+    "en": [
+      "xiaomi unlock bootloader",
+      "edl flash 9008",
+      "unbrick phone",
+      "temp root hyperos",
+      "magisk root",
+      "flash global rom",
+      "redmagic bootloader unlock",
+      "nubia zte axon flash",
+      "oneplus unbrick",
+      "oppo realme flash",
+      "china to global rom",
+      "hyperos os2 os3 os4 unlock",
+      "frp unlock",
+      "qualcomm firehose flash"
+    ],
+    "ru": [
+      "разблокировка загрузчика xiaomi",
+      "edl прошивка 9008",
+      "восстановление кирпича unbrick",
+      "temp root hyperos",
+      "magisk root",
+      "глобальная прошивка rom",
+      "разблокировка redmagic",
+      "nubia zte axon прошивка",
+      "oneplus восстановление",
+      "oppo realme прошивка",
+      "china на global rom",
+      "hyperos os2 os3 os4 разблокировка",
+      "сброс frp",
+      "qualcomm firehose"
+    ]
+  },
+  "contact": {
+    "website": [
+      "https://ncunlock.com",
+      "https://ncunlock.vn"
+    ],
+    "telegram_support": "https://t.me/ncunlock_own",
+    "telegram_group": "https://t.me/xiaomi_vn",
+    "whatsapp": "https://wa.me/84389013366",
+    "whatsapp_number": "+84 389 013 366"
+  },
+  "brands": [
+    {
+      "brand": "Xiaomi / Redmi / POCO",
+      "model_count": 71,
+      "services": [
+        "Unlock bootloader",
+        "Flash",
+        "EDL flash / Unbrick",
+        "Temp root",
+        "Root",
+        "Root (Magisk)"
+      ],
+      "os_support": [
+        "HyperOS OS1",
+        "OS2",
+        "OS3",
+        "OS4"
+      ],
+      "models": [
+        {
+          "name": "K100 Pro athens",
+          "codename": "athens",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Note 15 Pro Plus",
+          "codename": "flourite",
+          "chip": "",
+          "services": [
+            "Root (Magisk)"
+          ],
+          "os": [
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "POCO F9 Ultra",
+          "codename": "songyuan",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Pad 6S Pro",
+          "codename": "sheng",
+          "chip": "Snapdragon 8 Gen 2",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Pad 8 Pro",
+          "codename": "piano",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K Pad / Pad Mini - OS3",
+          "codename": "turner",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS3"
+          ]
+        },
+        {
+          "name": "Redmi K50 Gaming",
+          "codename": "ingres",
+          "chip": "",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K50 Ultra",
+          "codename": "",
+          "chip": "",
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Redmi K50 Ultra",
+          "codename": "diting",
+          "chip": "",
+          "services": [
+            "Root (Magisk)"
+          ],
+          "os": [
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K60 / Poco F5 Pro",
+          "codename": "",
+          "chip": "",
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Redmi K60 / Poco F5 Pro",
+          "codename": "mondrian",
+          "chip": "",
+          "services": [
+            "Root (Magisk)"
+          ],
+          "os": [
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K60 Pro",
+          "codename": "socrates",
+          "chip": "Snapdragon 8 Gen 2",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K70 / POCO F6 Pro",
+          "codename": "vermeer",
+          "chip": "Snapdragon 8 Gen 2",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K70 Pro",
+          "codename": "manet",
+          "chip": "Snapdragon 8 Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K70E / POCO X6 Pro - high version",
+          "codename": "duchamp",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Redmi K80",
+          "codename": "zorn",
+          "chip": "Snapdragon 8 series",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K80 Pro",
+          "codename": "miro",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K80 Ultra - OS3",
+          "codename": "dali",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS3"
+          ]
+        },
+        {
+          "name": "Redmi K90",
+          "codename": "annibale",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K90 Pro Max / POCO F8 Ultra",
+          "codename": "myron",
+          "chip": "Snapdragon 8 Elite Gen 5",
+          "services": [
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi K90 Ultra",
+          "codename": "warsaw",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi Mix Flip 2",
+          "codename": "solana",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi Note 12 Turbo / Poco F5",
+          "codename": "",
+          "chip": "",
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Redmi Note 12 Turbo / Poco F5",
+          "codename": "marble",
+          "chip": "",
+          "services": [
+            "Root (Magisk)"
+          ],
+          "os": [
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi Note 13 Pro",
+          "codename": "",
+          "chip": "",
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Redmi Note 13 Pro",
+          "codename": "zircon",
+          "chip": "",
+          "services": [
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi Note 13 Pro 5G",
+          "codename": "garnet",
+          "chip": "Snapdragon 7s Gen 2",
+          "services": [
+            "Temp root"
+          ],
+          "os": [
+            "OS2"
+          ]
+        },
+        {
+          "name": "Redmi Note 14 Pro / POCO X7 Pro - high version LK",
+          "codename": "malachite",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Redmi Note 14 Pro+",
+          "codename": "amethyst",
+          "chip": "Snapdragon 7s Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi Note 15 Pro+",
+          "codename": "fluorite",
+          "chip": "Snapdragon 7s Gen 4",
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi Pad Pro",
+          "codename": "dizi",
+          "chip": "",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi Turbo 3",
+          "codename": "peridot",
+          "chip": "Snapdragon 8s Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi Turbo 4 / POCO X7 Pro (OS2) - high version LK",
+          "codename": "rodin",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Redmi Turbo 4 Pro",
+          "codename": "onyx",
+          "chip": "Snapdragon 8s Gen 4",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Redmi Turbo 5 Max / POCO X8 Pro Max - high version LK",
+          "codename": "dash",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 12",
+          "codename": "cupid",
+          "chip": "Snapdragon 8 Gen 1",
+          "services": [
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 12",
+          "codename": "",
+          "chip": "",
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 12 Pro",
+          "codename": "zeus",
+          "chip": "Snapdragon 8 Gen 1",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 12S Pro",
+          "codename": "unicorn",
+          "chip": "Snapdragon 8+ Gen 1",
+          "services": [
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 12S Pro",
+          "codename": "",
+          "chip": "",
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 12S Ultra",
+          "codename": "thor",
+          "chip": "Snapdragon 8+ Gen 1",
+          "services": [
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 12S Ultra",
+          "codename": "",
+          "chip": "",
+          "services": [
+            "Flash",
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 13",
+          "codename": "fuxi",
+          "chip": "Snapdragon 8 Gen 2",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 13 Pro",
+          "codename": "nuwa",
+          "chip": "Snapdragon 8 Gen 2",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 13 Ultra",
+          "codename": "ishtar",
+          "chip": "Snapdragon 8 Gen 2",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 14",
+          "codename": "houji",
+          "chip": "Snapdragon 8 Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 14 Pro",
+          "codename": "shennong",
+          "chip": "Snapdragon 8 Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 14 Ultra",
+          "codename": "aurora",
+          "chip": "Snapdragon 8 Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 14T - high version LK",
+          "codename": "degas",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 14T Pro / Redmi K70 Ultra - high version LK",
+          "codename": "rothko",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 15",
+          "codename": "dada",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 15 Pro",
+          "codename": "haotian",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 15 Ultra",
+          "codename": "xuanyuan",
+          "chip": "Snapdragon 8 Elite",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 15T",
+          "codename": "goya",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 15T Pro",
+          "codename": "klimt",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 17",
+          "codename": "pudding",
+          "chip": "Snapdragon 8 Elite Gen 5",
+          "services": [
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 17 Max",
+          "codename": "byron",
+          "chip": "Snapdragon 8 Elite Gen 5",
+          "services": [
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 17 Pro",
+          "codename": "pandora",
+          "chip": "Snapdragon 8 Elite Gen 5",
+          "services": [
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 17 Pro Max",
+          "codename": "popsicle",
+          "chip": "Snapdragon 8 Elite Gen 5",
+          "services": [
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 17 Ultra",
+          "codename": "nezha",
+          "chip": "Snapdragon 8 Elite Gen 5",
+          "services": [
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi 17T",
+          "codename": "chagall",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 17T Pro",
+          "codename": "warhol",
+          "chip": "",
+          "services": [
+            "Root",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2"
+          ]
+        },
+        {
+          "name": "Xiaomi 18 Pro",
+          "codename": "hongkong",
+          "chip": "Snapdragon 8 Elite Gen 5 (SM8950)",
+          "services": [
+            "Root"
+          ],
+          "os": [
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi Civi 4 Pro",
+          "codename": "chenfeng",
+          "chip": "Snapdragon 8s Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi Civi 5 Pro",
+          "codename": "luming",
+          "chip": "Snapdragon 8s Gen 4",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi MIX Fold 3",
+          "codename": "babylon",
+          "chip": "Snapdragon 8 Gen 2",
+          "services": [
+            "EDL flash / Unbrick",
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi MIX Fold 4",
+          "codename": "goku",
+          "chip": "Snapdragon 8 Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi Mix Flip",
+          "codename": "ruyi",
+          "chip": "Snapdragon 8 Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi Pad 7",
+          "codename": "uke",
+          "chip": "Snapdragon 7+ Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi Pad 7 Pro",
+          "codename": "muyu",
+          "chip": "Snapdragon 8s Gen 3",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        },
+        {
+          "name": "Xiaomi Pad 8",
+          "codename": "yupei",
+          "chip": "Snapdragon 8s Gen 4",
+          "services": [
+            "Flash",
+            "Root",
+            "Root (Magisk)",
+            "Unlock bootloader"
+          ],
+          "os": [
+            "OS1",
+            "OS2",
+            "OS3",
+            "OS4"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "RedMagic / Nubia / ZTE",
+      "model_count": 51,
+      "services": [
+        "Unlock bootloader",
+        "FRP unlock",
+        "Unbrick",
+        "EDL flash",
+        "Flash Global ROM",
+        "Root"
+      ],
+      "platform": "Qualcomm EDL (Firehose)",
+      "models": [
+        {
+          "name": "Nubia Z80 Ultra",
+          "chip": "8 Elite Gen 5",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "RedMagic 11 series",
+          "chip": "Snapdragon8E5",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "RedMagic 11 Air",
+          "chip": "Snapdragon8E",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "Nubia Z70 Ultra",
+          "chip": "Snapdragon8E",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "RedMagic 10 / 10 Pro / 10 Pro+ / 10S / 10S Pro / 10S Pro+",
+          "chip": "Snapdragon8E",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "RedMagic 10 Air",
+          "chip": "Snapdragon8Gen3",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "RedMagic Pad 3 Pro / Astra",
+          "chip": "Snapdragon8E",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "Nubia Tablet Pro",
+          "chip": "Snapdragon8Gen3",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "RedMagic Gaming Tablet Pro",
+          "chip": "Snapdragon8Gen3",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "Nubia Z60 Ultra",
+          "chip": "Snapdragon8Gen3",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "RedMagic 9 series",
+          "chip": "Snapdragon8Gen3",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "RedMagic 8 series",
+          "chip": "Snapdragon8Gen2",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "Nubia Pad 3D",
+          "chip": "Snapdragon8Gen2",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "RedMagic Tablet 3D Explorer",
+          "chip": "Snapdragon8Gen2",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "RedMagic 7S Pro",
+          "chip": "Snapdragon8+",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "RedMagic 7S",
+          "chip": "Snapdragon8+",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon Pad",
+          "chip": "Snapdragon8+",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "RedMagic Gaming Tablet",
+          "chip": "Snapdragon8+",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "RedMagic 7 / 7 Pro",
+          "chip": "Snapdragon8Gen1",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 40 Ultra",
+          "chip": "Snapdragon8Gen1",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 41 Ultra",
+          "chip": "Snapdragon8Gen1",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "Nubia Z40 Pro",
+          "chip": "Snapdragon8Gen1",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "RedMagic 6 / 6 Pro / 6S Pro",
+          "chip": "Snapdragon888",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon A31 Pro 5G",
+          "chip": "Snapdragon888",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 30 Pro 5G",
+          "chip": "Snapdragon888",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 30 Ultra",
+          "chip": "Snapdragon888",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "Nubia Z30 Pro",
+          "chip": "Snapdragon888",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "RedMagic 6R",
+          "chip": "Snapdragon888",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 30 5G",
+          "chip": "Snapdragon870",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 30S",
+          "chip": "Snapdragon870",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 40 Pro",
+          "chip": "Snapdragon870",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon A41 5G",
+          "chip": "Snapdragon870",
+          "services": [
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 10S Pro",
+          "chip": "Snapdragon865",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "RedMagic 5G / 5S",
+          "chip": "Snapdragon865",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "China Mobile Pioneer X1",
+          "chip": "Snapdragon855",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM",
+            "FRP unlock"
+          ]
+        },
+        {
+          "name": "ZTE Axon 10 Pro",
+          "chip": "Snapdragon855",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "RedMagic 3 / 3S",
+          "chip": "Snapdragon855",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "Nubia Mini 5G",
+          "chip": "Snapdragon855",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "RedMagic Mars",
+          "chip": "Snapdragon845",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "Nubia X",
+          "chip": "Snapdragon845",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "Nubia Z18",
+          "chip": "Snapdragon845",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 9 / Axon 9 Pro",
+          "chip": "Snapdragon845",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "Nubia RedMagic",
+          "chip": "Snapdragon835",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "Nubia Z17",
+          "chip": "Snapdragon835",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 7",
+          "chip": "Snapdragon820",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon A31 5G",
+          "chip": "Snapdragon768G",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE S30 Pro",
+          "chip": "Snapdragon768G",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 11 5G",
+          "chip": "Snapdragon765G",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Axon 20 5G",
+          "chip": "Snapdragon765G",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "ZTE Blade 20 Pro 5G",
+          "chip": "Snapdragon765G",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        },
+        {
+          "name": "Nubia Play 5G",
+          "chip": "Snapdragon765G",
+          "services": [
+            "Unlock bootloader",
+            "Root",
+            "Unbrick",
+            "EDL flash",
+            "Flash Global ROM"
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "OnePlus / OPPO / Realme",
+      "model_count": 11,
+      "services": [
+        "Unbrick",
+        "Flash ROM",
+        "Unlock bootloader",
+        "Root"
+      ],
+      "platform": "Qualcomm EDL / MSM",
+      "models": [
+        {
+          "name": "OnePlus 13",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "OnePlus 13T",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "OnePlus Ace 5 Pro",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "OnePlus Ace 6",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "OnePlus Open 2",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "OnePlus Pad 3",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "OPPO Find N5",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "OPPO Find X8 Ultra",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "Realme GT7 Pro",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "Realme GT8",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        },
+        {
+          "name": "Realme GT Neo5 SE",
+          "services": [
+            "Unbrick",
+            "Flash ROM",
+            "Unlock bootloader",
+            "Root"
+          ]
+        }
+      ]
+    }
+  ]
+}
