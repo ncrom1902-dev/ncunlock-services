@@ -10,23 +10,22 @@ Xiaomi · Redmi · POCO · RedMagic · Nubia · ZTE · OnePlus · OPPO · Realme
 [![Telegram](https://img.shields.io/badge/Telegram-@ncunlock__own-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ncunlock_own)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-+84%20389%20013%20366-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/84389013366)
 
-**🇻🇳 Tiếng Việt · 🇬🇧 English · 🇷🇺 Русский**
+**🇬🇧 English · 🇷🇺 Русский · 🇻🇳 Tiếng Việt**
 
 </div>
 
 ---
 
-> 🇻🇳 Repo giới thiệu dịch vụ — chỉ danh mục dịch vụ & model, **không** chứa mã nguồn / firmware / loader.
 > 🇬🇧 Service catalog only — **no** source code / firmware / loader.
 > 🇷🇺 Только каталог услуг — **без** исходного кода / прошивок.
 
 ## 📖 About
 
-**🇻🇳** Dịch vụ chuyên nghiệp mở khóa bootloader, flash ROM, cứu máy (unbrick) qua EDL 9008, temp root và root cho Xiaomi/Redmi/POCO, RedMagic/Nubia/ZTE, OnePlus/OPPO/Realme. Hỗ trợ đầy đủ HyperOS OS2/OS3/OS4. Hơn 130 model.
+**🇬🇧 English.** Professional service for bootloader unlock, ROM flashing, EDL 9008 unbrick, temp root and root on Xiaomi/Redmi/POCO, RedMagic/Nubia/ZTE, OnePlus/OPPO/Realme. Full HyperOS OS2/OS3/OS4 support. 130+ models.
 
-**🇬🇧** Professional service for bootloader unlock, ROM flashing, EDL 9008 unbrick, temp root and root on Xiaomi/Redmi/POCO, RedMagic/Nubia/ZTE, OnePlus/OPPO/Realme. Full HyperOS OS2/OS3/OS4 support. 130+ models.
+**🇷🇺 Русский.** Профессиональная услуга разблокировки загрузчика, прошивки ROM, восстановления (unbrick) через EDL 9008, temp root и root для Xiaomi/Redmi/POCO, RedMagic/Nubia/ZTE, OnePlus/OPPO/Realme. Полная поддержка HyperOS OS2/OS3/OS4. Более 130 моделей.
 
-**🇷🇺** Профессиональная услуга разблокировки загрузчика, прошивки ROM, восстановления (unbrick) через EDL 9008, temp root и root для Xiaomi/Redmi/POCO, RedMagic/Nubia/ZTE, OnePlus/OPPO/Realme. Полная поддержка HyperOS OS2/OS3/OS4. Более 130 моделей.
+**🇻🇳 Tiếng Việt.** Dịch vụ chuyên nghiệp mở khóa bootloader, flash ROM, cứu máy (unbrick) qua EDL 9008, temp root và root cho Xiaomi/Redmi/POCO, RedMagic/Nubia/ZTE, OnePlus/OPPO/Realme. Hỗ trợ đầy đủ HyperOS OS2/OS3/OS4. Hơn 130 model.
 
 ## 📱 Xiaomi · Redmi · POCO — 75 models
 
@@ -188,11 +187,11 @@ Unbrick (EDL/MSM) · Flash ROM · Unlock Bootloader · Root
 
 ## 🧪 Temp Root (root tạm thời) — 64 models
 
-**🇻🇳** Temp root (root tạm thời) là BƯỚC ĐẦU của hầu hết luồng mở khóa đời mới: tool khai thác để lấy root tạm thời + SELinux permissive, rồi mới ghi ABL/LK và mở khóa bootloader. Root mất khi khởi động lại, KHÔNG mất bảo hành. Hiện có ở 64 model Xiaomi/Redmi/POCO trên HyperOS OS2/OS3/OS4. Chỉ các luồng old-version kiểu EDL/GPT/fastboot là không qua temp root.
-
 **🇬🇧** Temp root (temporary root) is the FIRST stage of most modern unlock flows: the tool exploits to gain temporary root + SELinux permissive, then writes ABL/LK and unlocks the bootloader. Root is lost on reboot and does NOT void warranty. Available on 64 Xiaomi/Redmi/POCO models across HyperOS OS2/OS3/OS4. Only old-version EDL/GPT/fastboot flows skip temp root.
 
 **🇷🇺** Temp root (временный root) — ПЕРВЫЙ этап большинства современных flow разблокировки: инструмент получает временный root + SELinux permissive, затем записывает ABL/LK и разблокирует загрузчик. Root пропадает после перезагрузки, НЕ лишает гарантии. Доступно на 64 моделях Xiaomi/Redmi/POCO на HyperOS OS2/OS3/OS4.
+
+**🇻🇳** Temp root (root tạm thời) là BƯỚC ĐẦU của hầu hết luồng mở khóa đời mới: tool khai thác để lấy root tạm thời + SELinux permissive, rồi mới ghi ABL/LK và mở khóa bootloader. Root mất khi khởi động lại, KHÔNG mất bảo hành. Hiện có ở 64 model Xiaomi/Redmi/POCO trên HyperOS OS2/OS3/OS4. Chỉ các luồng old-version kiểu EDL/GPT/fastboot là không qua temp root.
 
 | Model | Codename | Aliases | Chip | HyperOS |
 |---|---|---|---|---|
@@ -263,11 +262,11 @@ Unbrick (EDL/MSM) · Flash ROM · Unlock Bootloader · Root
 
 ## ❓ FAQ
 
-**🇻🇳 Mở khóa bootloader Xiaomi HyperOS 4.0 / OS4 có được không?** Được — hỗ trợ HyperOS 2.0, 3.0, 4.0 cho hầu hết Xiaomi/Redmi/POCO, không chờ 7 ngày.
-
 **🇬🇧 Can you unlock bootloader on HyperOS 4.0 / OS4?** Yes — HyperOS 2.0, 3.0 and 4.0 for most Xiaomi/Redmi/POCO, no 7-day Mi Unlock wait.
 
 **🇷🇺 Можно разблокировать загрузчик на HyperOS 4.0 / OS4?** Да — HyperOS 2.0, 3.0 и 4.0 для большинства Xiaomi/Redmi/POCO.
+
+**🇻🇳 Mở khóa bootloader Xiaomi HyperOS 4.0 / OS4 có được không?** Được — hỗ trợ HyperOS 2.0, 3.0, 4.0 cho hầu hết Xiaomi/Redmi/POCO, không chờ 7 ngày.
 
 ## 🤖 For AI & Integrations
 
