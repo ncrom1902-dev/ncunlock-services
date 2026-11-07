@@ -57,3 +57,8 @@ build/
 .vscode/
 .idea/
 *.tmp
+
+# SEO files (allow)
+!sitemap.xml
+!index.html
+!robots.txt
