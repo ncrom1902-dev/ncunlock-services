@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://ncrom1902-dev.github.io/ncunlock-services/sitemap.xml
