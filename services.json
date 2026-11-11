@@ -36,7 +36,12 @@
       "6.12.69 temp root",
       "6.6.118 temp root",
       "6.1.138 temp root",
-      "adb shell uname -r xiaomi"
+      "adb shell uname -r xiaomi",
+      "kernel exploit",
+      "temp root exploit",
+      "hyperos 4 exploit",
+      "hyperos 3 exploit",
+      "xiaomi root exploit"
     ],
     "ru": [
       "разблокировка загрузчика xiaomi",
@@ -55,7 +60,10 @@
       "qualcomm firehose",
       "temp root xiaomi",
       "временный root",
-      "временный рут garnet"
+      "временный рут garnet",
+      "эксплойт ядра xiaomi",
+      "hyperos 4 эксплойт",
+      "temp root эксплойт"
     ],
     "vi": [
       "mở khóa bootloader xiaomi",
@@ -75,7 +83,10 @@
       "temp root xiaomi",
       "root tạm thời",
       "temp root garnet",
-      "root không mở bootloader"
+      "root không mở bootloader",
+      "exploit hyperos 4",
+      "kernel exploit xiaomi",
+      "temp root exploit"
     ],
     "codenames_xiaomi": [
       "amethyst",
@@ -1029,6 +1040,21 @@
           "kernels": [
             "6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k"
           ]
+        },
+        {
+          "name": "Xiaomi 18 Pro",
+          "codename": "hongkong",
+          "aliases": [
+            "Xiaomi 18 Pro",
+            "M610BB",
+            "hongkong"
+          ],
+          "chip": "Snapdragon 8 Elite Gen 5 (SM8950)",
+          "os": [
+            "OS3",
+            "OS4"
+          ],
+          "kernel_profile_format": "dedicated_server_entry"
         }
       ],
       "kernel_profile_count": 25,
@@ -1059,7 +1085,17 @@
           "kernel_release": "6.12.69-android16-6-g0d80ee00f747-ab15461283-4k",
           "profile_format": ".conf",
           "profile_filename": "6.12.69-android16-6-g0d80ee00f747-ab15461283-4k.athens.conf",
-          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi K100 Pro HyperOS 3.0 temp root",
+            "Redmi K100 Pro HyperOS 3.0 exploit",
+            "Redmi K100 Pro temp root exploit",
+            "Redmi K100 Pro kernel 6.12.69",
+            "Redmi K100 Pro 6.12.69-android16-6-g0d80ee00f747-ab15461283-4k",
+            "athens 6.12.69-android16-6-g0d80ee00f747-ab15461283-4k",
+            "OS3.0.307.0.WPICNXM temp root"
+          ]
         },
         {
           "model": "Redmi K100 Pro",
@@ -1077,7 +1113,17 @@
           "kernel_release": "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
           "profile_format": ".conf",
           "profile_filename": "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k.athens.conf",
-          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi K100 Pro HyperOS 4.0 temp root",
+            "Redmi K100 Pro HyperOS 4.0 exploit",
+            "Redmi K100 Pro temp root exploit",
+            "Redmi K100 Pro kernel 6.12.69",
+            "Redmi K100 Pro 6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+            "athens 6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+            "OS4.0.5.0.XPICNXM temp root"
+          ]
         },
         {
           "model": "Redmi K100 Pro Max / POCO F9 Ultra",
@@ -1096,7 +1142,22 @@
           "kernel_release": "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
           "profile_format": ".conf",
           "profile_filename": "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k.songyuan.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-k100-pro-max/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-k100-pro-max/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi K100 Pro Max HyperOS 3.0 temp root",
+            "Redmi K100 Pro Max HyperOS 3.0 exploit",
+            "Redmi K100 Pro Max temp root exploit",
+            "Redmi K100 Pro Max kernel 6.12.69",
+            "Redmi K100 Pro Max 6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+            "POCO F9 Ultra HyperOS 3.0 temp root",
+            "POCO F9 Ultra HyperOS 3.0 exploit",
+            "POCO F9 Ultra temp root exploit",
+            "POCO F9 Ultra kernel 6.12.69",
+            "POCO F9 Ultra 6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+            "songyuan 6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+            "OS3.0.310.0.WGNCNXM temp root"
+          ]
         },
         {
           "model": "Redmi K100 Pro Max / POCO F9 Ultra",
@@ -1115,7 +1176,22 @@
           "kernel_release": "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
           "profile_format": ".conf",
           "profile_filename": "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k.songyuan.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-k100-pro-max/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-k100-pro-max/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi K100 Pro Max HyperOS 4.0 temp root",
+            "Redmi K100 Pro Max HyperOS 4.0 exploit",
+            "Redmi K100 Pro Max temp root exploit",
+            "Redmi K100 Pro Max kernel 6.12.69",
+            "Redmi K100 Pro Max 6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+            "POCO F9 Ultra HyperOS 4.0 temp root",
+            "POCO F9 Ultra HyperOS 4.0 exploit",
+            "POCO F9 Ultra temp root exploit",
+            "POCO F9 Ultra kernel 6.12.69",
+            "POCO F9 Ultra 6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+            "songyuan 6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+            "OS4.0.5.0.XGNCNXM temp root"
+          ]
         },
         {
           "model": "Redmi K90 Pro Max / POCO F8 Ultra",
@@ -1133,7 +1209,22 @@
           "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
           "profile_format": ".conf",
           "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.myron.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-redmi-k90-pro-max/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-redmi-k90-pro-max/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi K90 Pro Max HyperOS 4.0 temp root",
+            "Redmi K90 Pro Max HyperOS 4.0 exploit",
+            "Redmi K90 Pro Max temp root exploit",
+            "Redmi K90 Pro Max kernel 6.12.69",
+            "Redmi K90 Pro Max 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "POCO F8 Ultra HyperOS 4.0 temp root",
+            "POCO F8 Ultra HyperOS 4.0 exploit",
+            "POCO F8 Ultra temp root exploit",
+            "POCO F8 Ultra kernel 6.12.69",
+            "POCO F8 Ultra 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "myron 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "OS4.0.5.0.XPMCNXM temp root"
+          ]
         },
         {
           "model": "Xiaomi 17",
@@ -1150,7 +1241,17 @@
           "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
           "profile_format": ".conf",
           "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.pudding.conf",
-          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi 17 HyperOS 4.0 temp root",
+            "Xiaomi 17 HyperOS 4.0 exploit",
+            "Xiaomi 17 temp root exploit",
+            "Xiaomi 17 kernel 6.12.69",
+            "Xiaomi 17 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "pudding 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "OS4.0.5.0.XPCCNXM_17.0 temp root"
+          ]
         },
         {
           "model": "Xiaomi 17 Max",
@@ -1167,7 +1268,17 @@
           "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
           "profile_format": ".conf",
           "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.byron.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-17-max/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-17-max/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi 17 Max HyperOS 4.0 temp root",
+            "Xiaomi 17 Max HyperOS 4.0 exploit",
+            "Xiaomi 17 Max temp root exploit",
+            "Xiaomi 17 Max kernel 6.12.69",
+            "Xiaomi 17 Max 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "byron 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "OS4.0.3.0.XAFCNXM temp root"
+          ]
         },
         {
           "model": "Xiaomi 17 Pro",
@@ -1184,7 +1295,17 @@
           "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
           "profile_format": ".conf",
           "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.pandora.conf",
-          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi 17 Pro HyperOS 4.0 temp root",
+            "Xiaomi 17 Pro HyperOS 4.0 exploit",
+            "Xiaomi 17 Pro temp root exploit",
+            "Xiaomi 17 Pro kernel 6.12.69",
+            "Xiaomi 17 Pro 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "pandora 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "OS4.0.5.0.XBLCNXM_17.0 temp root"
+          ]
         },
         {
           "model": "Xiaomi 17 Ultra",
@@ -1201,7 +1322,17 @@
           "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
           "profile_format": ".conf",
           "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.nezha.conf",
-          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi 17 Ultra HyperOS 4.0 temp root",
+            "Xiaomi 17 Ultra HyperOS 4.0 exploit",
+            "Xiaomi 17 Ultra temp root exploit",
+            "Xiaomi 17 Ultra kernel 6.12.69",
+            "Xiaomi 17 Ultra 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "nezha 6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+            "OS4.0.5.0.XPACNXM temp root"
+          ]
         },
         {
           "model": "POCO F7 / Redmi Turbo 4 Pro",
@@ -1220,7 +1351,22 @@
           "kernel_release": "6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k",
           "profile_format": ".conf",
           "profile_filename": "6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k.onyx.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-turbo-4-pro/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-turbo-4-pro/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "POCO F7 HyperOS 3.0 temp root",
+            "POCO F7 HyperOS 3.0 exploit",
+            "POCO F7 temp root exploit",
+            "POCO F7 kernel 6.6.118",
+            "POCO F7 6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k",
+            "Redmi Turbo 4 Pro HyperOS 3.0 temp root",
+            "Redmi Turbo 4 Pro HyperOS 3.0 exploit",
+            "Redmi Turbo 4 Pro temp root exploit",
+            "Redmi Turbo 4 Pro kernel 6.6.118",
+            "Redmi Turbo 4 Pro 6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k",
+            "onyx 6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k",
+            "OS3.0.304.0.WOLEUXM temp root"
+          ]
         },
         {
           "model": "Redmi K90 / POCO F8 Pro",
@@ -1238,7 +1384,22 @@
           "kernel_release": "6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
           "profile_format": ".conf",
           "profile_filename": "6.6.118-android15-8-g0908354dac1b-ab16143355-4k.annibale.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-k90/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-k90/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi K90 HyperOS 4.0 temp root",
+            "Redmi K90 HyperOS 4.0 exploit",
+            "Redmi K90 temp root exploit",
+            "Redmi K90 kernel 6.6.118",
+            "Redmi K90 6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
+            "POCO F8 Pro HyperOS 4.0 temp root",
+            "POCO F8 Pro HyperOS 4.0 exploit",
+            "POCO F8 Pro temp root exploit",
+            "POCO F8 Pro kernel 6.6.118",
+            "POCO F8 Pro 6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
+            "annibale 6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
+            "OS4.0.5.0.XPKCNXM temp root"
+          ]
         },
         {
           "model": "Xiaomi 15 Pro",
@@ -1255,7 +1416,17 @@
           "kernel_release": "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
           "profile_format": ".conf",
           "profile_filename": "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k.haotian.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-15-pro/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-15-pro/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi 15 Pro HyperOS 3.0 temp root",
+            "Xiaomi 15 Pro HyperOS 3.0 exploit",
+            "Xiaomi 15 Pro temp root exploit",
+            "Xiaomi 15 Pro kernel 6.6.118",
+            "Xiaomi 15 Pro 6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
+            "haotian 6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
+            "OS3.0.309.0.WOBCNXM temp root"
+          ]
         },
         {
           "model": "Xiaomi 15 Ultra",
@@ -1272,7 +1443,17 @@
           "kernel_release": "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
           "profile_format": ".conf",
           "profile_filename": "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k.xuanyuan.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-15-ultra/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-15-ultra/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi 15 Ultra HyperOS 3.0 temp root",
+            "Xiaomi 15 Ultra HyperOS 3.0 exploit",
+            "Xiaomi 15 Ultra temp root exploit",
+            "Xiaomi 15 Ultra kernel 6.6.118",
+            "Xiaomi 15 Ultra 6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
+            "xuanyuan 6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
+            "OS3.0.314.0.WOACNXM temp root"
+          ]
         },
         {
           "model": "Xiaomi Pad 8",
@@ -1290,7 +1471,17 @@
           "kernel_release": "6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
           "profile_format": ".conf",
           "profile_filename": "6.6.118-android15-8-g0908354dac1b-ab16143355-4k.yupei.conf",
-          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi Pad 8 HyperOS 4.0 temp root",
+            "Xiaomi Pad 8 HyperOS 4.0 exploit",
+            "Xiaomi Pad 8 temp root exploit",
+            "Xiaomi Pad 8 kernel 6.6.118",
+            "Xiaomi Pad 8 6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
+            "yupei 6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
+            "OS4.0.11.0.XPZCNXM temp root"
+          ]
         },
         {
           "model": "Xiaomi Pad 8 Pro",
@@ -1308,7 +1499,17 @@
           "kernel_release": "6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k",
           "profile_format": ".conf",
           "profile_filename": "6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k.piano.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-pad-8-pro/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-pad-8-pro/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi Pad 8 Pro HyperOS 4.0 temp root",
+            "Xiaomi Pad 8 Pro HyperOS 4.0 exploit",
+            "Xiaomi Pad 8 Pro temp root exploit",
+            "Xiaomi Pad 8 Pro kernel 6.6.118",
+            "Xiaomi Pad 8 Pro 6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k",
+            "piano 6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k",
+            "OS4.0.5.0.XPYCNXM temp root"
+          ]
         },
         {
           "model": "Xiaomi 14",
@@ -1325,7 +1526,17 @@
           "kernel_release": "6.1.157-android14-11-g78a0a76cd7b7-ab15497637",
           "profile_format": ".conf",
           "profile_filename": "6.1.157-android14-11-g78a0a76cd7b7-ab15497637.houji.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-14/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-14/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi 14 HyperOS 3.0 temp root",
+            "Xiaomi 14 HyperOS 3.0 exploit",
+            "Xiaomi 14 temp root exploit",
+            "Xiaomi 14 kernel 6.1.157",
+            "Xiaomi 14 6.1.157-android14-11-g78a0a76cd7b7-ab15497637",
+            "houji 6.1.157-android14-11-g78a0a76cd7b7-ab15497637",
+            "OS3.0.305.0.WNCMIXM temp root"
+          ]
         },
         {
           "model": "Redmi K70 Pro",
@@ -1342,7 +1553,17 @@
           "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
           "profile_format": ".conf",
           "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.manet.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-k70-pro/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-k70-pro/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi K70 Pro HyperOS 3.0 temp root",
+            "Redmi K70 Pro HyperOS 3.0 exploit",
+            "Redmi K70 Pro temp root exploit",
+            "Redmi K70 Pro kernel 6.1.138",
+            "Redmi K70 Pro 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "manet 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "OS3.0.306.0.WNMCNXM temp root"
+          ]
         },
         {
           "model": "Redmi K80 / POCO F7 Pro",
@@ -1360,7 +1581,22 @@
           "kernel_release": "6.1.138-android14-11-g965475777129-mi",
           "profile_format": ".conf",
           "profile_filename": "6.1.138-android14-11-g965475777129-mi.zorn.conf",
-          "service_url": "https://ncunlock.com/product/xiaomi-redmi-k80-convert-rom-global/"
+          "service_url": "https://ncunlock.com/product/xiaomi-redmi-k80-convert-rom-global/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi K80 HyperOS 3.0 temp root",
+            "Redmi K80 HyperOS 3.0 exploit",
+            "Redmi K80 temp root exploit",
+            "Redmi K80 kernel 6.1.138",
+            "Redmi K80 6.1.138-android14-11-g965475777129-mi",
+            "POCO F7 Pro HyperOS 3.0 temp root",
+            "POCO F7 Pro HyperOS 3.0 exploit",
+            "POCO F7 Pro temp root exploit",
+            "POCO F7 Pro kernel 6.1.138",
+            "POCO F7 Pro 6.1.138-android14-11-g965475777129-mi",
+            "zorn 6.1.138-android14-11-g965475777129-mi",
+            "OS3.0.309.0.WOKCNXM temp root"
+          ]
         },
         {
           "model": "Redmi Note 14 Pro+ High Version",
@@ -1378,7 +1614,17 @@
           "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
           "profile_format": ".conf",
           "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.amethyst.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-note-14-series/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-note-14-series/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi Note 14 Pro+ High Version HyperOS 3.0 temp root",
+            "Redmi Note 14 Pro+ High Version HyperOS 3.0 exploit",
+            "Redmi Note 14 Pro+ High Version temp root exploit",
+            "Redmi Note 14 Pro+ High Version kernel 6.1.138",
+            "Redmi Note 14 Pro+ High Version 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "amethyst 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "OS3.0.303.0.WOPTWXM temp root"
+          ]
         },
         {
           "model": "Redmi Note 15 Pro+ / POCO M8 Pro 5G",
@@ -1397,7 +1643,22 @@
           "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
           "profile_format": ".conf",
           "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.flourite.conf",
-          "service_url": "https://ncunlock.com/product/note-15-pro-plus-convert-global-rom/"
+          "service_url": "https://ncunlock.com/product/note-15-pro-plus-convert-global-rom/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi Note 15 Pro+ HyperOS 3.0 temp root",
+            "Redmi Note 15 Pro+ HyperOS 3.0 exploit",
+            "Redmi Note 15 Pro+ temp root exploit",
+            "Redmi Note 15 Pro+ kernel 6.1.138",
+            "Redmi Note 15 Pro+ 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "POCO M8 Pro 5G HyperOS 3.0 temp root",
+            "POCO M8 Pro 5G HyperOS 3.0 exploit",
+            "POCO M8 Pro 5G temp root exploit",
+            "POCO M8 Pro 5G kernel 6.1.138",
+            "POCO M8 Pro 5G 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "flourite 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "OS3.0.318.0.WPRCNXM temp root"
+          ]
         },
         {
           "model": "Redmi Turbo 3 / POCO F6",
@@ -1415,7 +1676,22 @@
           "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
           "profile_format": ".conf",
           "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.peridot.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-turbo-3/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-turbo-3/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Redmi Turbo 3 HyperOS 3.0 temp root",
+            "Redmi Turbo 3 HyperOS 3.0 exploit",
+            "Redmi Turbo 3 temp root exploit",
+            "Redmi Turbo 3 kernel 6.1.138",
+            "Redmi Turbo 3 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "POCO F6 HyperOS 3.0 temp root",
+            "POCO F6 HyperOS 3.0 exploit",
+            "POCO F6 temp root exploit",
+            "POCO F6 kernel 6.1.138",
+            "POCO F6 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "peridot 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "OS3.0.304.0.WNPMIXM temp root"
+          ]
         },
         {
           "model": "Xiaomi 14 Pro",
@@ -1433,7 +1709,17 @@
           "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
           "profile_format": ".conf",
           "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.shennong.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-14-pro/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-14-pro/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi 14 Pro HyperOS 3.0 temp root",
+            "Xiaomi 14 Pro HyperOS 3.0 exploit",
+            "Xiaomi 14 Pro temp root exploit",
+            "Xiaomi 14 Pro kernel 6.1.138",
+            "Xiaomi 14 Pro 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "shennong 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "OS3.0.310.0.WNBCNXM temp root"
+          ]
         },
         {
           "model": "Xiaomi 14 Ultra",
@@ -1450,7 +1736,17 @@
           "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
           "profile_format": ".conf",
           "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.aurora.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-14-ultra/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-14-ultra/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi 14 Ultra HyperOS 3.0 temp root",
+            "Xiaomi 14 Ultra HyperOS 3.0 exploit",
+            "Xiaomi 14 Ultra temp root exploit",
+            "Xiaomi 14 Ultra kernel 6.1.138",
+            "Xiaomi 14 Ultra 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "aurora 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "OS3.0.305.0.WNAMIXM temp root"
+          ]
         },
         {
           "model": "Xiaomi Pad 7 / POCO Pad X1",
@@ -1468,7 +1764,22 @@
           "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
           "profile_format": ".conf",
           "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.uke.conf",
-          "service_url": "https://ncunlock.com/product/xiaomi-pad-7-unlock-booloader/"
+          "service_url": "https://ncunlock.com/product/xiaomi-pad-7-unlock-booloader/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi Pad 7 HyperOS 3.0 temp root",
+            "Xiaomi Pad 7 HyperOS 3.0 exploit",
+            "Xiaomi Pad 7 temp root exploit",
+            "Xiaomi Pad 7 kernel 6.1.138",
+            "Xiaomi Pad 7 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "POCO Pad X1 HyperOS 3.0 temp root",
+            "POCO Pad X1 HyperOS 3.0 exploit",
+            "POCO Pad X1 temp root exploit",
+            "POCO Pad X1 kernel 6.1.138",
+            "POCO Pad X1 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "uke 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "OS3.0.305.0.WOZINXM temp root"
+          ]
         },
         {
           "model": "Xiaomi Pad 7 Pro",
@@ -1485,7 +1796,644 @@
           "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
           "profile_format": ".conf",
           "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.muyu.conf",
-          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-pad-7-pro/"
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-pad-7-pro/",
+          "exploit_type": "kernel_temp_root_exploit (.conf / CVE-2026-98260)",
+          "search_queries": [
+            "Xiaomi Pad 7 Pro HyperOS 3.0 temp root",
+            "Xiaomi Pad 7 Pro HyperOS 3.0 exploit",
+            "Xiaomi Pad 7 Pro temp root exploit",
+            "Xiaomi Pad 7 Pro kernel 6.1.138",
+            "Xiaomi Pad 7 Pro 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "muyu 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "OS3.0.305.0.WOYEUXM temp root"
+          ]
+        }
+      ],
+      "offset_kernel_count": 52,
+      "offset_kernels": [
+        {
+          "device_names": "Redmi Note 15 Pro+",
+          "kernel_release": "6.1.118-android14-11-ga3b9c44908dd-ab13320413",
+          "kernel_branch": "6.1.118",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Redmi Note 15 Pro+ temp root exploit",
+            "Redmi Note 15 Pro+ kernel 6.1.118-android14-11-ga3b9c44908dd-ab13320413",
+            "6.1.118-android14-11-ga3b9c44908dd-ab13320413"
+          ]
+        },
+        {
+          "device_names": "Xiaomi 14",
+          "kernel_release": "6.1.118-android14-11-gca0ef6d17716-ab13624819",
+          "kernel_branch": "6.1.118",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Xiaomi 14 temp root exploit",
+            "Xiaomi 14 kernel 6.1.118-android14-11-gca0ef6d17716-ab13624819",
+            "6.1.118-android14-11-gca0ef6d17716-ab13624819"
+          ]
+        },
+        {
+          "device_names": "aurora, shennong, chenfeng, ruyi, uke, amethyst, houji, manet, peridot, muyu, flourite",
+          "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+          "kernel_branch": "6.1.138",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "aurora, shennong, chenfeng, ruyi, uke, amethyst, houji, manet, peridot, muyu, flourite temp root exploit",
+            "aurora, shennong, chenfeng, ruyi, uke, amethyst, houji, manet, peridot, muyu, flourite kernel 6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
+          ]
+        },
+        {
+          "device_names": "Infinix Note 50s 5G / Infinix GT 30 (X6876)",
+          "kernel_release": "6.1.145-android14-11-g09f1c0074ad7-ab14226177",
+          "kernel_branch": "6.1.145",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Infinix Note 50s 5G / Infinix GT 30 (X6876) temp root exploit",
+            "Infinix Note 50s 5G / Infinix GT 30 (X6876) kernel 6.1.145-android14-11-g09f1c0074ad7-ab14226177",
+            "6.1.145-android14-11-g09f1c0074ad7-ab14226177"
+          ]
+        },
+        {
+          "device_names": "vivo T4",
+          "kernel_release": "6.1.145-android14-11-g74d1702dab4d-ab14669069",
+          "kernel_branch": "6.1.145",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "vivo T4 temp root exploit",
+            "vivo T4 kernel 6.1.145-android14-11-g74d1702dab4d-ab14669069",
+            "6.1.145-android14-11-g74d1702dab4d-ab14669069"
+          ]
+        },
+        {
+          "device_names": "Motorola Razr 50 Ultra / Motorola Razr+ 2024",
+          "kernel_release": "6.1.145-android14-11-geaa643a2c0ee-ab14763719",
+          "kernel_branch": "6.1.145",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Motorola Razr 50 Ultra / Motorola Razr+ 2024 temp root exploit",
+            "Motorola Razr 50 Ultra / Motorola Razr+ 2024 kernel 6.1.145-android14-11-geaa643a2c0ee-ab14763719",
+            "6.1.145-android14-11-geaa643a2c0ee-ab14763719"
+          ]
+        },
+        {
+          "device_names": "Zenfone 11 Ultra",
+          "kernel_release": "6.1.162-android14-11-gce140c0e5bf5-ab15450923",
+          "kernel_branch": "6.1.162",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Zenfone 11 Ultra temp root exploit",
+            "Zenfone 11 Ultra kernel 6.1.162-android14-11-gce140c0e5bf5-ab15450923",
+            "6.1.162-android14-11-gce140c0e5bf5-ab15450923"
+          ]
+        },
+        {
+          "device_names": "Redmi K90 Pro Max / POCO F8 Ultra, myron",
+          "kernel_release": "6.12.23-android16-5-g16e473de48a3-abogki462654244-4k",
+          "kernel_branch": "6.12.23",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Redmi K90 Pro Max / POCO F8 Ultra, myron temp root exploit",
+            "Redmi K90 Pro Max / POCO F8 Ultra, myron kernel 6.12.23-android16-5-g16e473de48a3-abogki462654244-4k",
+            "6.12.23-android16-5-g16e473de48a3-abogki462654244-4k"
+          ]
+        },
+        {
+          "device_names": "Xiaomi 17 / 17 Pro / 17 Pro Max / 17 Ultra, popsicle",
+          "kernel_release": "6.12.23-android16-5-g75e9b1c7ae7c-abogki463945075-4k",
+          "kernel_branch": "6.12.23",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Xiaomi 17 / 17 Pro / 17 Pro Max / 17 Ultra, popsicle temp root exploit",
+            "Xiaomi 17 / 17 Pro / 17 Pro Max / 17 Ultra, popsicle kernel 6.12.23-android16-5-g75e9b1c7ae7c-abogki463945075-4k",
+            "6.12.23-android16-5-g75e9b1c7ae7c-abogki463945075-4k"
+          ]
+        },
+        {
+          "device_names": "OPPO Find X9 / Find X9 Pro",
+          "kernel_release": "6.12.23-android16-5-g82efd98459a2-ab14457512-4k",
+          "kernel_branch": "6.12.23",
+          "struct_macro": "STRUCT_OFFSETS_6_12",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OPPO Find X9 / Find X9 Pro temp root exploit",
+            "OPPO Find X9 / Find X9 Pro kernel 6.12.23-android16-5-g82efd98459a2-ab14457512-4k",
+            "6.12.23-android16-5-g82efd98459a2-ab14457512-4k"
+          ]
+        },
+        {
+          "device_names": "OnePlus 15",
+          "kernel_release": "6.12.23-android16-5-ga8f88ad96df3-ab13929693-4k",
+          "kernel_branch": "6.12.23",
+          "struct_macro": "STRUCT_OFFSETS_6_12",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OnePlus 15 temp root exploit",
+            "OnePlus 15 kernel 6.12.23-android16-5-ga8f88ad96df3-ab13929693-4k",
+            "6.12.23-android16-5-ga8f88ad96df3-ab13929693-4k"
+          ]
+        },
+        {
+          "device_names": "OnePlus 15",
+          "kernel_release": "6.12.23-android16-5-gb2a876903b49-ab14541642-4k",
+          "kernel_branch": "6.12.23",
+          "struct_macro": "STRUCT_OFFSETS_6_12",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OnePlus 15 temp root exploit",
+            "OnePlus 15 kernel 6.12.23-android16-5-gb2a876903b49-ab14541642-4k",
+            "6.12.23-android16-5-gb2a876903b49-ab14541642-4k"
+          ]
+        },
+        {
+          "device_names": "Red Magic 11 Pro / Tablet 5 Pro",
+          "kernel_release": "6.12.23-android16-5-gf1bdb13583da-ab13761046-4k",
+          "kernel_branch": "6.12.23",
+          "struct_macro": "STRUCT_OFFSETS_6_12",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Red Magic 11 Pro / Tablet 5 Pro temp root exploit",
+            "Red Magic 11 Pro / Tablet 5 Pro kernel 6.12.23-android16-5-gf1bdb13583da-ab13761046-4k",
+            "6.12.23-android16-5-gf1bdb13583da-ab13761046-4k"
+          ]
+        },
+        {
+          "device_names": "REDMI Note 15 4G / POCO M6 Pro 4G",
+          "kernel_release": "6.12.30-android16-5-g6e872b4863d6-ab13847919-4k",
+          "kernel_branch": "6.12.30",
+          "struct_macro": "STRUCT_OFFSETS_6_12",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "REDMI Note 15 4G / POCO M6 Pro 4G temp root exploit",
+            "REDMI Note 15 4G / POCO M6 Pro 4G kernel 6.12.30-android16-5-g6e872b4863d6-ab13847919-4k",
+            "6.12.30-android16-5-g6e872b4863d6-ab13847919-4k"
+          ]
+        },
+        {
+          "device_names": "Xiaomi 13T",
+          "kernel_release": "6.12.38-android16-5-g3c4da6410bcb-ab13872285-4k",
+          "kernel_branch": "6.12.38",
+          "struct_macro": "STRUCT_OFFSETS_6_12",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Xiaomi 13T temp root exploit",
+            "Xiaomi 13T kernel 6.12.38-android16-5-g3c4da6410bcb-ab13872285-4k",
+            "6.12.38-android16-5-g3c4da6410bcb-ab13872285-4k"
+          ]
+        },
+        {
+          "device_names": "OnePlus 15T",
+          "kernel_release": "6.12.38-android16-5-g844001fb8721-ab14552068-4k",
+          "kernel_branch": "6.12.38",
+          "struct_macro": "STRUCT_OFFSETS_6_12",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OnePlus 15T temp root exploit",
+            "OnePlus 15T kernel 6.12.38-android16-5-g844001fb8721-ab14552068-4k",
+            "6.12.38-android16-5-g844001fb8721-ab14552068-4k"
+          ]
+        },
+        {
+          "device_names": "Nothing Phone 3",
+          "kernel_release": "6.6.102-android15-8-gab8eb70a71b8-ab14350911-4k",
+          "kernel_branch": "6.6.102",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Nothing Phone 3 temp root exploit",
+            "Nothing Phone 3 kernel 6.6.102-android15-8-gab8eb70a71b8-ab14350911-4k",
+            "6.6.102-android15-8-gab8eb70a71b8-ab14350911-4k"
+          ]
+        },
+        {
+          "device_names": "Xiaomi 17T",
+          "kernel_release": "6.6.102-android15-8-gb01b41c2647c-ab15574720-4k",
+          "kernel_branch": "6.6.102",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Xiaomi 17T temp root exploit",
+            "Xiaomi 17T kernel 6.6.102-android15-8-gb01b41c2647c-ab15574720-4k",
+            "6.6.102-android15-8-gb01b41c2647c-ab15574720-4k"
+          ]
+        },
+        {
+          "device_names": "Xiaomi 17T",
+          "kernel_release": "6.6.102-android15-8-gfe76d1bc97fd-ab14689815-4k",
+          "kernel_branch": "6.6.102",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Xiaomi 17T temp root exploit",
+            "Xiaomi 17T kernel 6.6.102-android15-8-gfe76d1bc97fd-ab14689815-4k",
+            "6.6.102-android15-8-gfe76d1bc97fd-ab14689815-4k"
+          ]
+        },
+        {
+          "device_names": "OPPO Find N5",
+          "kernel_release": "6.6.118-android15-8-g2e6b9c3812c5-ab15114928-4k",
+          "kernel_branch": "6.6.118",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OPPO Find N5 temp root exploit",
+            "OPPO Find N5 kernel 6.6.118-android15-8-g2e6b9c3812c5-ab15114928-4k",
+            "6.6.118-android15-8-g2e6b9c3812c5-ab15114928-4k"
+          ]
+        },
+        {
+          "device_names": "REDMI K90 Ultra",
+          "kernel_release": "6.6.118-android15-8-g608a629fedf7-ab15154340-4k",
+          "kernel_branch": "6.6.118",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "REDMI K90 Ultra temp root exploit",
+            "REDMI K90 Ultra kernel 6.6.118-android15-8-g608a629fedf7-ab15154340-4k",
+            "6.6.118-android15-8-g608a629fedf7-ab15154340-4k"
+          ]
+        },
+        {
+          "device_names": "OPPO Find X8 Ultra / OnePlus 13 / ACE 5 Pro",
+          "kernel_release": "6.6.118-android15-8-g93e223c276e7-abogki500782043-4k",
+          "kernel_branch": "6.6.118",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OPPO Find X8 Ultra / OnePlus 13 / ACE 5 Pro temp root exploit",
+            "OPPO Find X8 Ultra / OnePlus 13 / ACE 5 Pro kernel 6.6.118-android15-8-g93e223c276e7-abogki500782043-4k",
+            "6.6.118-android15-8-g93e223c276e7-abogki500782043-4k"
+          ]
+        },
+        {
+          "device_names": "REDMI K80 Pro / Turbo 5 Max / POCO X8 Pro Max / Xiaomi Pad 7 Ultra, piano, xuanyuan, haotian",
+          "kernel_release": "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
+          "kernel_branch": "6.6.118",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "REDMI K80 Pro / Turbo 5 Max / POCO X8 Pro Max / Xiaomi Pad 7 Ultra, piano, xuanyuan, haotian temp root exploit",
+            "REDMI K80 Pro / Turbo 5 Max / POCO X8 Pro Max / Xiaomi Pad 7 Ultra, piano, xuanyuan, haotian kernel 6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
+            "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k"
+          ]
+        },
+        {
+          "device_names": "REDMI K90 Ultra / POCO F7, onyx, yupei, miro, piano",
+          "kernel_release": "6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k",
+          "kernel_branch": "6.6.118",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "REDMI K90 Ultra / POCO F7, onyx, yupei, miro, piano temp root exploit",
+            "REDMI K90 Ultra / POCO F7, onyx, yupei, miro, piano kernel 6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k",
+            "6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k"
+          ]
+        },
+        {
+          "device_names": "OPPO Pad 5 / OnePlus Pad 2 / OPPO Find X8s",
+          "kernel_release": "6.6.118-android15-8-ge58033dc8ea6-abogki498046332-4k",
+          "kernel_branch": "6.6.118",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OPPO Pad 5 / OnePlus Pad 2 / OPPO Find X8s temp root exploit",
+            "OPPO Pad 5 / OnePlus Pad 2 / OPPO Find X8s kernel 6.6.118-android15-8-ge58033dc8ea6-abogki498046332-4k",
+            "6.6.118-android15-8-ge58033dc8ea6-abogki498046332-4k"
+          ]
+        },
+        {
+          "device_names": "OPPO Find X8 / Find X8 Pro",
+          "kernel_release": "6.6.118-android15-8-gebdfad32d749-ab15099304-4k",
+          "kernel_branch": "6.6.118",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OPPO Find X8 / Find X8 Pro temp root exploit",
+            "OPPO Find X8 / Find X8 Pro kernel 6.6.118-android15-8-gebdfad32d749-ab15099304-4k",
+            "6.6.118-android15-8-gebdfad32d749-ab15099304-4k"
+          ]
+        },
+        {
+          "device_names": "Red Magic Tablet 3 Pro",
+          "kernel_release": "6.6.30-android15-8-g54dcbfbef792-ab12368803-4k",
+          "kernel_branch": "6.6.30",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Red Magic Tablet 3 Pro temp root exploit",
+            "Red Magic Tablet 3 Pro kernel 6.6.30-android15-8-g54dcbfbef792-ab12368803-4k",
+            "6.6.30-android15-8-g54dcbfbef792-ab12368803-4k"
+          ]
+        },
+        {
+          "device_names": "Xiaomi Civi 5 Pro / REDMI K90 / 4 Turbo / POCO F7, yupei",
+          "kernel_release": "6.6.77-android15-8-g4a507830d890-ab13636293-4k",
+          "kernel_branch": "6.6.77",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Xiaomi Civi 5 Pro / REDMI K90 / 4 Turbo / POCO F7, yupei temp root exploit",
+            "Xiaomi Civi 5 Pro / REDMI K90 / 4 Turbo / POCO F7, yupei kernel 6.6.77-android15-8-g4a507830d890-ab13636293-4k",
+            "6.6.77-android15-8-g4a507830d890-ab13636293-4k"
+          ]
+        },
+        {
+          "device_names": "Xiaomi 15",
+          "kernel_release": "6.6.77-android15-8-g63ce7556864c-ab13994517-4k",
+          "kernel_branch": "6.6.77",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Xiaomi 15 temp root exploit",
+            "Xiaomi 15 kernel 6.6.77-android15-8-g63ce7556864c-ab13994517-4k",
+            "6.6.77-android15-8-g63ce7556864c-ab13994517-4k"
+          ]
+        },
+        {
+          "device_names": "Xiaomi 15 Pro / REDMI K80 Pro / K80 Ultra",
+          "kernel_release": "6.6.77-android15-8-gca30f3b4bef6-abogki440974771-4k",
+          "kernel_branch": "6.6.77",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Xiaomi 15 Pro / REDMI K80 Pro / K80 Ultra temp root exploit",
+            "Xiaomi 15 Pro / REDMI K80 Pro / K80 Ultra kernel 6.6.77-android15-8-gca30f3b4bef6-abogki440974771-4k",
+            "6.6.77-android15-8-gca30f3b4bef6-abogki440974771-4k"
+          ]
+        },
+        {
+          "device_names": "POCO X8 Pro Max",
+          "kernel_release": "6.6.89-android15-8-g0889fe95bb10-ab14402178-4k",
+          "kernel_branch": "6.6.89",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "POCO X8 Pro Max temp root exploit",
+            "POCO X8 Pro Max kernel 6.6.89-android15-8-g0889fe95bb10-ab14402178-4k",
+            "6.6.89-android15-8-g0889fe95bb10-ab14402178-4k"
+          ]
+        },
+        {
+          "device_names": "OPPO Pad 4 Pro",
+          "kernel_release": "6.6.89-android15-8-g096cdb6ecefc-ab14358676-4k",
+          "kernel_branch": "6.6.89",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OPPO Pad 4 Pro temp root exploit",
+            "OPPO Pad 4 Pro kernel 6.6.89-android15-8-g096cdb6ecefc-ab14358676-4k",
+            "6.6.89-android15-8-g096cdb6ecefc-ab14358676-4k"
+          ]
+        },
+        {
+          "device_names": "POCO X8 Pro",
+          "kernel_release": "6.6.89-android15-8-g8e4be6b47e40-ab14134548-4k",
+          "kernel_branch": "6.6.89",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "POCO X8 Pro temp root exploit",
+            "POCO X8 Pro kernel 6.6.89-android15-8-g8e4be6b47e40-ab14134548-4k",
+            "6.6.89-android15-8-g8e4be6b47e40-ab14134548-4k"
+          ]
+        },
+        {
+          "device_names": "OnePlus 13",
+          "kernel_release": "6.6.89-android15-8-gf4dc45704e54-abogki446052083-4k",
+          "kernel_branch": "6.6.89",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "OnePlus 13 temp root exploit",
+            "OnePlus 13 kernel 6.6.89-android15-8-gf4dc45704e54-abogki446052083-4k",
+            "6.6.89-android15-8-gf4dc45704e54-abogki446052083-4k"
+          ]
+        },
+        {
+          "device_names": "Red Magic Tablet 3 Pro / Red Magic 10 Pro / Red Magic 11 Air",
+          "kernel_release": "6.6.92-android15-8-g3637f4904cf5-ab13944661-4k",
+          "kernel_branch": "6.6.92",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Red Magic Tablet 3 Pro / Red Magic 10 Pro / Red Magic 11 Air temp root exploit",
+            "Red Magic Tablet 3 Pro / Red Magic 10 Pro / Red Magic 11 Air kernel 6.6.92-android15-8-g3637f4904cf5-ab13944661-4k",
+            "6.6.92-android15-8-g3637f4904cf5-ab13944661-4k"
+          ]
+        },
+        {
+          "device_names": "aurora, zorn",
+          "kernel_release": "6.1.138-android14-11-g965475777129-mi",
+          "kernel_branch": "6.1.138",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "aurora, zorn temp root exploit",
+            "aurora, zorn kernel 6.1.138-android14-11-g965475777129-mi",
+            "6.1.138-android14-11-g965475777129-mi"
+          ]
+        },
+        {
+          "device_names": "songyuan, athens",
+          "kernel_release": "6.12.69-android16-6-g0d80ee00f747-ab15461283-4k",
+          "kernel_branch": "6.12.69",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "songyuan, athens temp root exploit",
+            "songyuan, athens kernel 6.12.69-android16-6-g0d80ee00f747-ab15461283-4k",
+            "6.12.69-android16-6-g0d80ee00f747-ab15461283-4k"
+          ]
+        },
+        {
+          "device_names": "goku",
+          "kernel_release": "6.1.157-android14-11-g5655d633b31a-mi",
+          "kernel_branch": "6.1.157",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "goku temp root exploit",
+            "goku kernel 6.1.157-android14-11-g5655d633b31a-mi",
+            "6.1.157-android14-11-g5655d633b31a-mi"
+          ]
+        },
+        {
+          "device_names": "muyu",
+          "kernel_release": "6.1.138-android14-11-g7b9e94e37cfa-mi",
+          "kernel_branch": "6.1.138",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "muyu temp root exploit",
+            "muyu kernel 6.1.138-android14-11-g7b9e94e37cfa-mi",
+            "6.1.138-android14-11-g7b9e94e37cfa-mi"
+          ]
+        },
+        {
+          "device_names": "muyu",
+          "kernel_release": "6.1.118-android14-11-gc8d09ed78937-mi",
+          "kernel_branch": "6.1.118",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "muyu temp root exploit",
+            "muyu kernel 6.1.118-android14-11-gc8d09ed78937-mi",
+            "6.1.118-android14-11-gc8d09ed78937-mi"
+          ]
+        },
+        {
+          "device_names": "pudding, nezha",
+          "kernel_release": "6.12.69-android16-6-gc8366273ff73-ab15162216-4k",
+          "kernel_branch": "6.12.69",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "pudding, nezha temp root exploit",
+            "pudding, nezha kernel 6.12.69-android16-6-gc8366273ff73-ab15162216-4k",
+            "6.12.69-android16-6-gc8366273ff73-ab15162216-4k"
+          ]
+        },
+        {
+          "device_names": "mgvi_64_armv82",
+          "kernel_release": "6.1.138-android14-11-g51f8c580613d-ab13911623",
+          "kernel_branch": "6.1.138",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "mgvi_64_armv82 temp root exploit",
+            "mgvi_64_armv82 kernel 6.1.138-android14-11-g51f8c580613d-ab13911623",
+            "6.1.138-android14-11-g51f8c580613d-ab13911623"
+          ]
+        },
+        {
+          "device_names": "Xiaomi 15 (dada) OS3.0.302.0.WOCCNXM",
+          "kernel_release": "6.6.77-android15-8-gf9a1d4bd8353-abogki440974771-4k",
+          "kernel_branch": "6.6.77",
+          "struct_macro": "STRUCT_OFFSETS_6_6",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Xiaomi 15 (dada) OS3.0.302.0.WOCCNXM temp root exploit",
+            "Xiaomi 15 (dada) OS3.0.302.0.WOCCNXM kernel 6.6.77-android15-8-gf9a1d4bd8353-abogki440974771-4k",
+            "6.6.77-android15-8-gf9a1d4bd8353-abogki440974771-4k"
+          ]
+        },
+        {
+          "device_names": "mgvi_64_armv82",
+          "kernel_release": "6.1.138-android14-11-g44bda9e8f6e9-ab13792638",
+          "kernel_branch": "6.1.138",
+          "struct_macro": "",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "mgvi_64_armv82 temp root exploit",
+            "mgvi_64_armv82 kernel 6.1.138-android14-11-g44bda9e8f6e9-ab13792638",
+            "6.1.138-android14-11-g44bda9e8f6e9-ab13792638"
+          ]
+        },
+        {
+          "device_names": "Redmi K100 Pro Max / POCO F9 Ultra, songyuan",
+          "kernel_release": "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+          "kernel_branch": "6.12.69",
+          "struct_macro": "STRUCT_OFFSETS_6_12",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Redmi K100 Pro Max / POCO F9 Ultra, songyuan temp root exploit",
+            "Redmi K100 Pro Max / POCO F9 Ultra, songyuan kernel 6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+            "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k"
+          ]
+        },
+        {
+          "device_names": "myron",
+          "kernel_release": "6.12.23-android16-5-g5a0e85dd9db0-ab14499855-4k",
+          "kernel_branch": "6.12.23",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "myron temp root exploit",
+            "myron kernel 6.12.23-android16-5-g5a0e85dd9db0-ab14499855-4k",
+            "6.12.23-android16-5-g5a0e85dd9db0-ab14499855-4k"
+          ]
+        },
+        {
+          "device_names": "Redmi K100 Pro Max (songyuan) OS4.0.5.0.XGNCNXM",
+          "kernel_release": "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+          "kernel_branch": "6.12.69",
+          "struct_macro": "STRUCT_OFFSETS_6_12",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Redmi K100 Pro Max (songyuan) OS4.0.5.0.XGNCNXM temp root exploit",
+            "Redmi K100 Pro Max (songyuan) OS4.0.5.0.XGNCNXM kernel 6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+            "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k"
+          ]
+        },
+        {
+          "device_names": "aurora",
+          "kernel_release": "6.1.157-android14-11-g2b8d37d00a12-mi",
+          "kernel_branch": "6.1.157",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "aurora temp root exploit",
+            "aurora kernel 6.1.157-android14-11-g2b8d37d00a12-mi",
+            "6.1.157-android14-11-g2b8d37d00a12-mi"
+          ]
+        },
+        {
+          "device_names": "mgvi_64_armv82",
+          "kernel_release": "5.15.180-android13-8-00021-g46a5565a0982-ab13743836",
+          "kernel_branch": "5.15.180",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "mgvi_64_armv82 temp root exploit",
+            "mgvi_64_armv82 kernel 5.15.180-android13-8-00021-g46a5565a0982-ab13743836",
+            "5.15.180-android13-8-00021-g46a5565a0982-ab13743836"
+          ]
+        },
+        {
+          "device_names": "mgvi_64_armv82",
+          "kernel_release": "5.15.194-android13-8-00038-g853eb7b6b965-ab15936612",
+          "kernel_branch": "5.15.194",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "mgvi_64_armv82 temp root exploit",
+            "mgvi_64_armv82 kernel 5.15.194-android13-8-00038-g853eb7b6b965-ab15936612",
+            "5.15.194-android13-8-00038-g853eb7b6b965-ab15936612"
+          ]
+        },
+        {
+          "device_names": "houji",
+          "kernel_release": "6.1.157-android14-11-g78a0a76cd7b7-ab15497637",
+          "kernel_branch": "6.1.157",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "houji temp root exploit",
+            "houji kernel 6.1.157-android14-11-g78a0a76cd7b7-ab15497637",
+            "6.1.157-android14-11-g78a0a76cd7b7-ab15497637"
+          ]
+        },
+        {
+          "device_names": "Generic / Multi-device",
+          "kernel_release": "6.12.38-android16-5-g1d46253471dd-ab15048002-4k",
+          "kernel_branch": "6.12.38",
+          "struct_macro": "STRUCT_OFFSETS_6_1",
+          "exploit_type": "kernel_offset_exploit (offsets.json / CVE-2026-43499)",
+          "search_queries": [
+            "Generic / Multi-device temp root exploit",
+            "Generic / Multi-device kernel 6.12.38-android16-5-g1d46253471dd-ab15048002-4k",
+            "6.12.38-android16-5-g1d46253471dd-ab15048002-4k"
+          ]
         }
       ]
     }
@@ -4211,7 +5159,8 @@
     "services_catalog": "https://ncunlock.com/services/",
     "hyperos_4_rollout": "https://ncunlock.com/xiaomi-hyperos-4-rollout/",
     "bootloader_unlock_guide": "https://ncunlock.com/xiaomi-hyperos-bootloader-unlock-guide/",
-    "service_comparison": "https://ncunlock.com/bootloader-unlock-vs-root-vs-global-rom/"
+    "service_comparison": "https://ncunlock.com/bootloader-unlock-vs-root-vs-global-rom/",
+    "llms_txt": "https://ncunlock.com/llms.txt"
   },
   "ai_retrieval_guide": {
     "purpose": "Structured capability index for AI coding assistants, search engines, and repair technicians verifying Xiaomi, Redmi, POCO, RedMagic, Nubia, ZTE, OnePlus, OPPO, and Realme unlock/flash/temp-root support.",

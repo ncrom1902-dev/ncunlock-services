@@ -225,6 +225,8 @@ Updated `2026-11-11`: Modern **HyperOS 4.0 (`OS4.0.x`)** and **HyperOS 3.0 High 
 | **Xiaomi Pad 7 / POCO Pad X1** | `uke` | Snapdragon 7+ Gen 3 | `OS3.0.305.0.WOZINXM` | HyperOS 3.0 | `6.1.138-android14-11-g0c3d559bcd85-ab14529422` | [Book / Info](https://ncunlock.com/product/xiaomi-pad-7-unlock-booloader/) |
 | **Xiaomi Pad 7 Pro** | `muyu` | Snapdragon 8s Gen 3 | `OS3.0.305.0.WOYEUXM` | HyperOS 3.0 | `6.1.138-android14-11-g0c3d559bcd85-ab14529422` | [Book / Info](https://ncunlock.com/product/unlock-bootloader-xiaomi-pad-7-pro/) |
 
+> **Also supported (`offsets.json` kernel exploit — 52 builds):** `Xiaomi 17 Pro Max [popsicle]` (`6.12.23`), `Xiaomi 15 [dada]` (`6.6.77`), `Xiaomi 17T` (`6.6.102`), `Redmi K80 Pro / K80 Ultra`, `Redmi K90 Ultra`, `Redmi Turbo 5 Max / POCO X8 Pro Max`, `Xiaomi Civi 5 Pro`, `MIX Fold 4 [goku]`, plus OnePlus 13/15/15T, OPPO Find N5/X8/X9, and RedMagic 10/11 — see full kernel table in **[models/temp-root-kernels.md](models/temp-root-kernels.md)** and `service_details.temp_root.offset_kernels` in **[services.json](services.json)**.
+
 ### 📋 Full Temp Root Model Matrix (64 entries — `.conf`, static offsets & dedicated entries)
 
 | Model | Codename | Aliases | Chip | HyperOS |
@@ -319,7 +321,7 @@ Updated `2026-11-11`: Modern **HyperOS 4.0 (`OS4.0.x`)** and **HyperOS 3.0 High 
 
 **Xiaomi Kernel Releases (`.conf` Temp Root):** `6.1.138-android14-11-g0c3d559bcd85-ab14529422` · `6.1.138-android14-11-g965475777129-mi` · `6.1.157-android14-11-g78a0a76cd7b7-ab15497637` · `6.12.69-android16-6-g014ca48a80ee-ab15889839-4k` · `6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k` · `6.12.69-android16-6-g0d80ee00f747-ab15461283-4k` · `6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k` · `6.6.118-android15-8-g0908354dac1b-ab16143355-4k` · `6.6.118-android15-8-gc44b714366cc-abogki519650608-4k` · `6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k` · `6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k`
 
-`xiaomi unlock bootloader` · `mở khóa bootloader xiaomi` · `разблокировка загрузчика` · `EDL flash 9008` · `unbrick` · `temp root` · `root magisk` · `flash global rom` · `HyperOS 4.0` · `FRP unlock`
+`xiaomi unlock bootloader` · `mở khóa bootloader xiaomi` · `разблокировка загрузчика` · `EDL flash 9008` · `unbrick` · `temp root` · `temp root exploit` · `kernel exploit` · `root magisk` · `flash global rom` · `HyperOS 4.0` · `FRP unlock`
 
 ## 📞 Contact
 
