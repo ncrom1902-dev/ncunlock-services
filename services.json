@@ -1,7 +1,7 @@
 {
   "name": "NCUnlock — Dịch vụ mở khóa & flash điện thoại",
   "site": "https://ncunlock.com",
-  "updated": "2026-11-07",
+  "updated": "2026-11-11",
   "primary_languages": [
     "en",
     "ru"
@@ -30,7 +30,13 @@
       "temp root xiaomi",
       "temporary root",
       "temp root garnet",
-      "root without unlock bootloader"
+      "root without unlock bootloader",
+      "hyperos 4 temp root",
+      "kernel conf temp root",
+      "6.12.69 temp root",
+      "6.6.118 temp root",
+      "6.1.138 temp root",
+      "adb shell uname -r xiaomi"
     ],
     "ru": [
       "разблокировка загрузчика xiaomi",
@@ -183,6 +189,25 @@
       "OS2",
       "OS3",
       "OS4"
+    ],
+    "kernel_releases": [
+      "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+      "6.1.138-android14-11-g965475777129-mi",
+      "6.1.157-android14-11-g78a0a76cd7b7-ab15497637",
+      "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+      "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+      "6.12.69-android16-6-g0d80ee00f747-ab15461283-4k",
+      "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+      "6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
+      "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
+      "6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k",
+      "6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k"
+    ],
+    "kernel_branches": [
+      "6.12.69",
+      "6.6.118",
+      "6.1.157",
+      "6.1.138"
     ]
   },
   "contact": {
@@ -210,6 +235,15 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.307.0.WPICNXM",
+            "OS4.0.5.0.XPICNXM"
+          ],
+          "kernels": [
+            "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+            "6.12.69-android16-6-g0d80ee00f747-ab15461283-4k"
           ]
         },
         {
@@ -220,6 +254,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.303.0.WOPTWXM"
+          ],
+          "kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -230,6 +271,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.304.0.WOLEUXM"
+          ],
+          "kernels": [
+            "6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k"
           ]
         },
         {
@@ -240,6 +288,15 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.310.0.WGNCNXM",
+            "OS4.0.5.0.XGNCNXM"
+          ],
+          "kernels": [
+            "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+            "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k"
           ]
         },
         {
@@ -258,6 +315,15 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.310.0.WGNCNXM",
+            "OS4.0.5.0.XGNCNXM"
+          ],
+          "kernels": [
+            "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+            "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k"
           ]
         },
         {
@@ -320,6 +386,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.306.0.WNMCNXM"
+          ],
+          "kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -339,6 +412,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.309.0.WOKCNXM"
+          ],
+          "kernels": [
+            "6.1.138-android14-11-g965475777129-mi"
           ]
         },
         {
@@ -368,6 +448,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS4.0.5.0.XPKCNXM"
+          ],
+          "kernels": [
+            "6.6.118-android15-8-g0908354dac1b-ab16143355-4k"
           ]
         },
         {
@@ -379,6 +466,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS4.0.5.0.XPMCNXM"
+          ],
+          "kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -453,6 +547,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.318.0.WPRCNXM"
+          ],
+          "kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -489,6 +590,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.304.0.WNPMIXM"
+          ],
+          "kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -577,6 +685,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.305.0.WNCMIXM"
+          ],
+          "kernels": [
+            "6.1.157-android14-11-g78a0a76cd7b7-ab15497637"
           ]
         },
         {
@@ -588,6 +703,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.310.0.WNBCNXM"
+          ],
+          "kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -599,6 +721,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.305.0.WNAMIXM"
+          ],
+          "kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -633,6 +762,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.309.0.WOBCNXM"
+          ],
+          "kernels": [
+            "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k"
           ]
         },
         {
@@ -644,6 +780,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.314.0.WOACNXM"
+          ],
+          "kernels": [
+            "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k"
           ]
         },
         {
@@ -667,6 +810,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS4.0.5.0.XPCCNXM_17.0"
+          ],
+          "kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -677,6 +827,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS4.0.3.0.XAFCNXM"
+          ],
+          "kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -688,6 +845,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS4.0.5.0.XBLCNXM_17.0"
+          ],
+          "kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -710,6 +874,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS4.0.5.0.XPACNXM"
+          ],
+          "kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -797,6 +968,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.305.0.WOZINXM"
+          ],
+          "kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -808,6 +986,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS3.0.305.0.WOYEUXM"
+          ],
+          "kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -819,6 +1004,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS4.0.11.0.XPZCNXM"
+          ],
+          "kernels": [
+            "6.6.118-android15-8-g0908354dac1b-ab16143355-4k"
           ]
         },
         {
@@ -829,7 +1021,471 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "kernel_profile_format": ".conf",
+          "verified_builds": [
+            "OS4.0.5.0.XPYCNXM"
+          ],
+          "kernels": [
+            "6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k"
           ]
+        }
+      ],
+      "kernel_profile_count": 25,
+      "kernel_codename_count": 23,
+      "kernel_model_count": 24,
+      "kernel_branches": [
+        "6.12.69",
+        "6.6.118",
+        "6.1.157",
+        "6.1.138"
+      ],
+      "canonical_url": "https://ncunlock.com/xiaomi-temp-root-remote-service/",
+      "ai_summary": "NCUnlock Tool Box supports server-matched .conf kernel Temp Root profiles for HyperOS 4.0 (OS4.0.x) and HyperOS 3.0 High Version (OS3.0.30x) across 25 verified builds (23 codenames / 24 commercial models) on Linux kernels 6.12.69, 6.6.118, 6.1.157, and 6.1.138, plus legacy static-offset and standalone entries (garnet, hongkong).",
+      "kernel_profiles": [
+        {
+          "model": "Redmi K100 Pro",
+          "codename": "athens",
+          "aliases": [
+            "K100 Pro athens",
+            "Redmi K100 Pro",
+            "K100ProAthens"
+          ],
+          "chipset": "Snapdragon 8 Elite",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.307.0.WPICNXM",
+          "kernel_branch": "6.12.69",
+          "android_kernel_base": "android16",
+          "kernel_release": "6.12.69-android16-6-g0d80ee00f747-ab15461283-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.12.69-android16-6-g0d80ee00f747-ab15461283-4k.athens.conf",
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+        },
+        {
+          "model": "Redmi K100 Pro",
+          "codename": "athens",
+          "aliases": [
+            "K100 Pro athens",
+            "Redmi K100 Pro",
+            "K100ProAthens"
+          ],
+          "chipset": "Snapdragon 8 Elite",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.5.0.XPICNXM",
+          "kernel_branch": "6.12.69",
+          "android_kernel_base": "android16",
+          "kernel_release": "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k.athens.conf",
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+        },
+        {
+          "model": "Redmi K100 Pro Max / POCO F9 Ultra",
+          "codename": "songyuan",
+          "aliases": [
+            "Redmi K100 Pro Max",
+            "POCO F9 Ultra",
+            "RedmiK100ProMax",
+            "PocoF9Ultra"
+          ],
+          "chipset": "Snapdragon 8 Elite / 8 Elite Gen 5",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.310.0.WGNCNXM",
+          "kernel_branch": "6.12.69",
+          "android_kernel_base": "android16",
+          "kernel_release": "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k.songyuan.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-k100-pro-max/"
+        },
+        {
+          "model": "Redmi K100 Pro Max / POCO F9 Ultra",
+          "codename": "songyuan",
+          "aliases": [
+            "Redmi K100 Pro Max",
+            "POCO F9 Ultra",
+            "RedmiK100ProMax",
+            "PocoF9Ultra"
+          ],
+          "chipset": "Snapdragon 8 Elite / 8 Elite Gen 5",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.5.0.XGNCNXM",
+          "kernel_branch": "6.12.69",
+          "android_kernel_base": "android16",
+          "kernel_release": "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k.songyuan.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-k100-pro-max/"
+        },
+        {
+          "model": "Redmi K90 Pro Max / POCO F8 Ultra",
+          "codename": "myron",
+          "aliases": [
+            "Redmi K90 Pro Max",
+            "POCO F8 Ultra",
+            "Redmi-K90-Pro-Max"
+          ],
+          "chipset": "Snapdragon 8 Elite Gen 5",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.5.0.XPMCNXM",
+          "kernel_branch": "6.12.69",
+          "android_kernel_base": "android16",
+          "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.myron.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-redmi-k90-pro-max/"
+        },
+        {
+          "model": "Xiaomi 17",
+          "codename": "pudding",
+          "aliases": [
+            "Xiaomi 17",
+            "Xiaomi-17"
+          ],
+          "chipset": "Snapdragon 8 Elite Gen 5",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.5.0.XPCCNXM_17.0",
+          "kernel_branch": "6.12.69",
+          "android_kernel_base": "android16",
+          "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.pudding.conf",
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+        },
+        {
+          "model": "Xiaomi 17 Max",
+          "codename": "byron",
+          "aliases": [
+            "Xiaomi 17 Max",
+            "Xiaomi17Max"
+          ],
+          "chipset": "Snapdragon 8 Elite Gen 5",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.3.0.XAFCNXM",
+          "kernel_branch": "6.12.69",
+          "android_kernel_base": "android16",
+          "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.byron.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-17-max/"
+        },
+        {
+          "model": "Xiaomi 17 Pro",
+          "codename": "pandora",
+          "aliases": [
+            "Xiaomi 17 Pro",
+            "Xiaomi17Pro"
+          ],
+          "chipset": "Snapdragon 8 Elite Gen 5",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.5.0.XBLCNXM_17.0",
+          "kernel_branch": "6.12.69",
+          "android_kernel_base": "android16",
+          "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.pandora.conf",
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+        },
+        {
+          "model": "Xiaomi 17 Ultra",
+          "codename": "nezha",
+          "aliases": [
+            "Xiaomi 17 Ultra",
+            "Xiaomi17Ultra"
+          ],
+          "chipset": "Snapdragon 8 Elite Gen 5",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.5.0.XPACNXM",
+          "kernel_branch": "6.12.69",
+          "android_kernel_base": "android16",
+          "kernel_release": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k.nezha.conf",
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+        },
+        {
+          "model": "POCO F7 / Redmi Turbo 4 Pro",
+          "codename": "onyx",
+          "aliases": [
+            "POCO F7",
+            "Redmi Turbo 4 Pro",
+            "PocoF7",
+            "RedmiTurbo4Pro"
+          ],
+          "chipset": "Snapdragon 8s Gen 4",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.304.0.WOLEUXM",
+          "kernel_branch": "6.6.118",
+          "android_kernel_base": "android15",
+          "kernel_release": "6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k.onyx.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-turbo-4-pro/"
+        },
+        {
+          "model": "Redmi K90 / POCO F8 Pro",
+          "codename": "annibale",
+          "aliases": [
+            "Redmi K90",
+            "POCO F8 Pro",
+            "RedmiK90"
+          ],
+          "chipset": "Snapdragon 8 Elite",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.5.0.XPKCNXM",
+          "kernel_branch": "6.6.118",
+          "android_kernel_base": "android15",
+          "kernel_release": "6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.6.118-android15-8-g0908354dac1b-ab16143355-4k.annibale.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-k90/"
+        },
+        {
+          "model": "Xiaomi 15 Pro",
+          "codename": "haotian",
+          "aliases": [
+            "Xiaomi 15 Pro",
+            "Xiaomi15Pro"
+          ],
+          "chipset": "Snapdragon 8 Elite",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.309.0.WOBCNXM",
+          "kernel_branch": "6.6.118",
+          "android_kernel_base": "android15",
+          "kernel_release": "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k.haotian.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-15-pro/"
+        },
+        {
+          "model": "Xiaomi 15 Ultra",
+          "codename": "xuanyuan",
+          "aliases": [
+            "Xiaomi 15 Ultra",
+            "Xiaomi15Ultra"
+          ],
+          "chipset": "Snapdragon 8 Elite",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.314.0.WOACNXM",
+          "kernel_branch": "6.6.118",
+          "android_kernel_base": "android15",
+          "kernel_release": "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k.xuanyuan.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-15-ultra/"
+        },
+        {
+          "model": "Xiaomi Pad 8",
+          "codename": "yupei",
+          "aliases": [
+            "Xiaomi Pad 8",
+            "Pad 8",
+            "XiaomiPad8"
+          ],
+          "chipset": "Snapdragon 8s Gen 4",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.11.0.XPZCNXM",
+          "kernel_branch": "6.6.118",
+          "android_kernel_base": "android15",
+          "kernel_release": "6.6.118-android15-8-g0908354dac1b-ab16143355-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.6.118-android15-8-g0908354dac1b-ab16143355-4k.yupei.conf",
+          "service_url": "https://ncunlock.com/product-category/bootloader-unlock-xiaomi-redmi-poco/"
+        },
+        {
+          "model": "Xiaomi Pad 8 Pro",
+          "codename": "piano",
+          "aliases": [
+            "Xiaomi Pad 8 Pro",
+            "Pad 8 Pro",
+            "XiaomiPad8Pro"
+          ],
+          "chipset": "Snapdragon 8 Elite",
+          "hyperos_series": "HyperOS 4.0",
+          "verified_build": "OS4.0.5.0.XPYCNXM",
+          "kernel_branch": "6.6.118",
+          "android_kernel_base": "android15",
+          "kernel_release": "6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k",
+          "profile_format": ".conf",
+          "profile_filename": "6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k.piano.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-pad-8-pro/"
+        },
+        {
+          "model": "Xiaomi 14",
+          "codename": "houji",
+          "aliases": [
+            "Xiaomi 14",
+            "Xiaomi14"
+          ],
+          "chipset": "Snapdragon 8 Gen 3",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.305.0.WNCMIXM",
+          "kernel_branch": "6.1.157",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.157-android14-11-g78a0a76cd7b7-ab15497637",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.157-android14-11-g78a0a76cd7b7-ab15497637.houji.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-14/"
+        },
+        {
+          "model": "Redmi K70 Pro",
+          "codename": "manet",
+          "aliases": [
+            "Redmi K70 Pro",
+            "RedmiK70Pro"
+          ],
+          "chipset": "Snapdragon 8 Gen 3",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.306.0.WNMCNXM",
+          "kernel_branch": "6.1.138",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.manet.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-k70-pro/"
+        },
+        {
+          "model": "Redmi K80 / POCO F7 Pro",
+          "codename": "zorn",
+          "aliases": [
+            "Redmi K80",
+            "POCO F7 Pro",
+            "RedmiK80"
+          ],
+          "chipset": "Snapdragon 8 Gen 3",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.309.0.WOKCNXM",
+          "kernel_branch": "6.1.138",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.138-android14-11-g965475777129-mi",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.138-android14-11-g965475777129-mi.zorn.conf",
+          "service_url": "https://ncunlock.com/product/xiaomi-redmi-k80-convert-rom-global/"
+        },
+        {
+          "model": "Redmi Note 14 Pro+ High Version",
+          "codename": "amethyst",
+          "aliases": [
+            "Redmi Note 14 Pro+",
+            "Note 14 Pro+ High version",
+            "Note14ProPlus-HighVersion"
+          ],
+          "chipset": "Snapdragon 7s Gen 3",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.303.0.WOPTWXM",
+          "kernel_branch": "6.1.138",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.amethyst.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-note-14-series/"
+        },
+        {
+          "model": "Redmi Note 15 Pro+ / POCO M8 Pro 5G",
+          "codename": "flourite",
+          "aliases": [
+            "Redmi Note 15 Pro+",
+            "Note 15 Pro Plus",
+            "fluorite",
+            "flourite"
+          ],
+          "chipset": "Snapdragon 7s Gen 4",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.318.0.WPRCNXM",
+          "kernel_branch": "6.1.138",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.flourite.conf",
+          "service_url": "https://ncunlock.com/product/note-15-pro-plus-convert-global-rom/"
+        },
+        {
+          "model": "Redmi Turbo 3 / POCO F6",
+          "codename": "peridot",
+          "aliases": [
+            "Redmi Turbo 3",
+            "POCO F6",
+            "Turbo 3"
+          ],
+          "chipset": "Snapdragon 8s Gen 3",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.304.0.WNPMIXM",
+          "kernel_branch": "6.1.138",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.peridot.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-redmi-turbo-3/"
+        },
+        {
+          "model": "Xiaomi 14 Pro",
+          "codename": "shennong",
+          "aliases": [
+            "Xiaomi 14 Pro",
+            "Xiaomi 14 Pro Ti",
+            "Xiaomi14Pro"
+          ],
+          "chipset": "Snapdragon 8 Gen 3",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.310.0.WNBCNXM",
+          "kernel_branch": "6.1.138",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.shennong.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-14-pro/"
+        },
+        {
+          "model": "Xiaomi 14 Ultra",
+          "codename": "aurora",
+          "aliases": [
+            "Xiaomi 14 Ultra",
+            "Xiaomi14Ultra"
+          ],
+          "chipset": "Snapdragon 8 Gen 3",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.305.0.WNAMIXM",
+          "kernel_branch": "6.1.138",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.aurora.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-14-ultra/"
+        },
+        {
+          "model": "Xiaomi Pad 7 / POCO Pad X1",
+          "codename": "uke",
+          "aliases": [
+            "Xiaomi Pad 7",
+            "POCO Pad X1",
+            "XiaomiPad7"
+          ],
+          "chipset": "Snapdragon 7+ Gen 3",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.305.0.WOZINXM",
+          "kernel_branch": "6.1.138",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.uke.conf",
+          "service_url": "https://ncunlock.com/product/xiaomi-pad-7-unlock-booloader/"
+        },
+        {
+          "model": "Xiaomi Pad 7 Pro",
+          "codename": "muyu",
+          "aliases": [
+            "Xiaomi Pad 7 Pro",
+            "XiaomiPad7Pro"
+          ],
+          "chipset": "Snapdragon 8s Gen 3",
+          "hyperos_series": "HyperOS 3.0",
+          "verified_build": "OS3.0.305.0.WOYEUXM",
+          "kernel_branch": "6.1.138",
+          "android_kernel_base": "android14",
+          "kernel_release": "6.1.138-android14-11-g0c3d559bcd85-ab14529422",
+          "profile_format": ".conf",
+          "profile_filename": "6.1.138-android14-11-g0c3d559bcd85-ab14529422.muyu.conf",
+          "service_url": "https://ncunlock.com/product/unlock-bootloader-xiaomi-pad-7-pro/"
         }
       ]
     }
@@ -888,6 +1544,15 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.307.0.WPICNXM",
+            "OS4.0.5.0.XPICNXM"
+          ],
+          "temp_root_kernels": [
+            "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k",
+            "6.12.69-android16-6-g0d80ee00f747-ab15461283-4k"
           ]
         },
         {
@@ -906,6 +1571,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.303.0.WOPTWXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -942,6 +1614,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.304.0.WOLEUXM"
+          ],
+          "temp_root_kernels": [
+            "6.6.118-android15-8-ge56cf6b09cca-ab15511674-4k"
           ]
         },
         {
@@ -961,6 +1640,15 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.310.0.WGNCNXM",
+            "OS4.0.5.0.XGNCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+            "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k"
           ]
         },
         {
@@ -1048,6 +1736,15 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.310.0.WGNCNXM",
+            "OS4.0.5.0.XGNCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.12.69-android16-6-g014ca48a80ee-ab15889839-4k",
+            "6.12.69-android16-6-g0a1dc0413ec7-ab16271006-4k"
           ]
         },
         {
@@ -1190,6 +1887,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.306.0.WNMCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -1236,6 +1940,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.309.0.WOKCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.138-android14-11-g965475777129-mi"
           ]
         },
         {
@@ -1347,6 +2058,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS4.0.5.0.XPKCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.6.118-android15-8-g0908354dac1b-ab16143355-4k"
           ]
         },
         {
@@ -1374,6 +2092,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS4.0.5.0.XPMCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -1571,6 +2296,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.318.0.WPRCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -1706,6 +2438,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.304.0.WNPMIXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -1928,6 +2667,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.305.0.WNCMIXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.157-android14-11-g78a0a76cd7b7-ab15497637"
           ]
         },
         {
@@ -1952,6 +2698,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.310.0.WNBCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -1975,6 +2728,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.305.0.WNAMIXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -2064,6 +2824,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.309.0.WOBCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k"
           ]
         },
         {
@@ -2089,6 +2856,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.314.0.WOACNXM"
+          ],
+          "temp_root_kernels": [
+            "6.6.118-android15-8-gc44b714366cc-abogki519650608-4k"
           ]
         },
         {
@@ -2150,6 +2924,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS4.0.5.0.XPCCNXM_17.0"
+          ],
+          "temp_root_kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -2169,6 +2950,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS4.0.3.0.XAFCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -2194,6 +2982,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS4.0.5.0.XBLCNXM_17.0"
+          ],
+          "temp_root_kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -2244,6 +3039,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS4.0.5.0.XPACNXM"
+          ],
+          "temp_root_kernels": [
+            "6.12.69-android16-6-g43b5ab7e247d-abogki561813157-4k"
           ]
         },
         {
@@ -2459,6 +3261,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.305.0.WOZINXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -2484,6 +3293,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS3.0.305.0.WOYEUXM"
+          ],
+          "temp_root_kernels": [
+            "6.1.138-android14-11-g0c3d559bcd85-ab14529422"
           ]
         },
         {
@@ -2508,6 +3324,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS4.0.11.0.XPZCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.6.118-android15-8-g0908354dac1b-ab16143355-4k"
           ]
         },
         {
@@ -2526,6 +3349,13 @@
             "OS2",
             "OS3",
             "OS4"
+          ],
+          "temp_root_profile_format": ".conf",
+          "temp_root_verified_builds": [
+            "OS4.0.5.0.XPYCNXM"
+          ],
+          "temp_root_kernels": [
+            "6.6.118-android15-8-gf72a02f47f4b-abogki551678766-4k"
           ]
         }
       ]
@@ -3374,5 +4204,27 @@
         }
       ]
     }
-  ]
+  ],
+  "canonical_docs": {
+    "temp_root_guide": "https://ncunlock.com/xiaomi-temp-root-remote-service/",
+    "xiaomi_unlock_tool": "https://ncunlock.com/xiaomi-unlock-tool/",
+    "services_catalog": "https://ncunlock.com/services/",
+    "hyperos_4_rollout": "https://ncunlock.com/xiaomi-hyperos-4-rollout/",
+    "bootloader_unlock_guide": "https://ncunlock.com/xiaomi-hyperos-bootloader-unlock-guide/",
+    "service_comparison": "https://ncunlock.com/bootloader-unlock-vs-root-vs-global-rom/"
+  },
+  "ai_retrieval_guide": {
+    "purpose": "Structured capability index for AI coding assistants, search engines, and repair technicians verifying Xiaomi, Redmi, POCO, RedMagic, Nubia, ZTE, OnePlus, OPPO, and Realme unlock/flash/temp-root support.",
+    "how_to_match_temp_root": [
+      "1. Read exact device codename (adb shell getprop ro.product.device).",
+      "2. Read exact HyperOS build (adb shell getprop ro.build.version.incremental).",
+      "3. Read exact Linux kernel release string (adb shell uname -r).",
+      "4. Match kernel_release + codename against service_details.temp_root.kernel_profiles (.conf profiles for HyperOS 3.0 & 4.0) or service_details.temp_root.models."
+    ],
+    "notes": [
+      "Temp root (.conf kernel profile) grants session-based in-memory root + SELinux permissive and clears automatically upon reboot.",
+      "Kernel minor commit suffixes (-g... / -ab...) vary across security patches; even if an exact minor hash differs slightly, contact NCUnlock with uname -r for server profile verification or new .conf extraction.",
+      "Do not confuse Temporary Root with permanent Magisk/KernelSU root (which requires an unlocked bootloader)."
+    ]
+  }
 }
