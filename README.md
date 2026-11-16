@@ -307,6 +307,7 @@ Updated `2026-11-11`: Modern **HyperOS 4.0 (`OS4.0.x`)** and **HyperOS 3.0 High 
 ## 🤖 For AI & Integrations
 
 - **AI Entry Point (`llms.txt`):** **[llms.txt](llms.txt)** — structured instructions and canonical link index for LLM assistants & crawlers.
+- **Full AI Feed (`llms-full.txt`):** **[ncunlock.com/llms-full.txt](https://ncunlock.com/llms-full.txt)** — every model, codename, alias, chipset, service, OS, and HyperOS kernel temp-root build (25 `.conf` + 52 `offsets.json`) in one plain-text file. Crawlable HTML mirror with per-model anchors: **[ncunlock.com/services/](https://ncunlock.com/services/)** (e.g. `#m-pudding`, `#temp-root`, `#offset-kernels`).
 - **Machine-Readable Catalog (`services.json`):** **[services.json](services.json)** — includes `service_details.temp_root.kernel_profiles` (25 verified `.conf` entries with `codename`, `chipset`, `verified_build`, `kernel_release`, `kernel_branch`), `ai_retrieval_guide`, and `canonical_docs`.
 - **Kernel Temp Root Index:** **[models/temp-root-kernels.md](models/temp-root-kernels.md)** — HyperOS 4.0 & 3.0 kernel `.conf` matrix grouped by `6.12.69`, `6.6.118`, and `6.1.138`/`6.1.157`.
 - **Per-Brand Tables:** **[Xiaomi](models/xiaomi.md)** · **[RedMagic](models/redmagic.md)** · **[OnePlus](models/oneplus-oppo-realme.md)** · **Web Hub:** **[ncunlock.com/xiaomi-temp-root-remote-service](https://ncunlock.com/xiaomi-temp-root-remote-service/)**

@@ -11,6 +11,7 @@
 
 ## Canonical Service Pages (ncunlock.com)
 - Site-level AI Index: https://ncunlock.com/llms.txt
+- Full Machine-Readable Catalog (137 models, codenames, kernels, OS, services): https://ncunlock.com/llms-full.txt
 - Xiaomi Temp Root Service (HyperOS 4.0 & 3.0 Kernels): https://ncunlock.com/xiaomi-temp-root-remote-service/
 - Xiaomi Unlock Tool (NCUnlock Tool Box): https://ncunlock.com/xiaomi-unlock-tool/
 - Full Supported Models & Services: https://ncunlock.com/services/
